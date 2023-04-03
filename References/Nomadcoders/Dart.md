@@ -157,7 +157,12 @@ void main() {
 ```
 
 ## Late
-
+`late`는 초기 데이터 없이 변수를 선언할 수 있도록 해준다
+```dart
+void main() {
+	late final name;
+}
+```
 
 
 
