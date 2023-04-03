@@ -2,6 +2,7 @@
   "accentColor": "#6b86ef",
   "cssTheme": "Minimal",
   "enabledCssSnippets": [
-    "styles"
+    "styles",
+    "custom-admonitions.a64dc3"
   ]
 }
