@@ -53,15 +53,14 @@ void main() {
 
 위와 같이 `dynamic`은 다양한 타입을 사용할 수 있는 타입이며,
 일반적으로 변수가 어떤 타입으로 지정될지 모르는 경우에 사용한다
-
 ```dart
 void main() {
 	dynamic name;
-
+	
 	if (name is! String) {
 		name.toString();
 	}
-
+	
 	// name은 이제 String type을 갖는다
 }
 ```
