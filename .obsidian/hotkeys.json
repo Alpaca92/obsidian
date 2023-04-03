@@ -7,5 +7,15 @@
       ],
       "key": "B"
     }
+  ],
+  "obsidian-git:open-git-view": [],
+  "app:toggle-right-sidebar": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "1"
+    }
   ]
 }
