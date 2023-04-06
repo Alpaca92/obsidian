@@ -729,7 +729,15 @@ void main() {
 }
 ```
 
+## Abstract classes
+`abstract class`는 `instance`를 절대 생성하지 않는 클래스를 말한다
+즉, 누군가의 부모 클래스로만 존재한다는 소리다
 
+```dart
+abstract class Human {
+	void walk();
+}
+```
 
 
 
