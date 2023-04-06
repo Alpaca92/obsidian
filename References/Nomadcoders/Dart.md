@@ -765,7 +765,37 @@ title: @override [_ref_](https://dart-lang.github.io/linter/lints/annotate_overr
 ```
 
 ## Inheritance
+말 그대로 클래스 간의 상속을 말한다
+즉, 부모 클래스 내에서 정의된 것들을 자식 클래스에서 접근하고, 사용하고, 덮어쓰는 등의 행위를 할 수 있다
 
+```dart
+class Human {
+	final String name;
+	
+	Human(this.name);
+	
+	void sayHello() {
+		print("Hi, my name is $name");
+	}
+}
+
+enum Team { blue, red }
+
+class player extends Human {
+	final Team team;
+
+	Player({
+		required this.team,
+		required String name,
+	}) : super(name);
+}
+
+void main() {
+	var player = Player(
+		
+	);
+}
+```
 
 
 
