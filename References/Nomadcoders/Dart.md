@@ -700,7 +700,7 @@ Container()
 `enums`은 개발자가 실수하는 것을 막아주는 역할을 한다
 
 ```dart
-enum Team = { red, blue }
+enum Team { red, blue }
 
 class Player {
 	String name;
@@ -712,6 +712,20 @@ class Player {
 		required this.xp,
 		required this.team,
 	});
+}
+
+void main() {
+	var player = Player(
+		name: 'ayaan',
+		xp: 10,
+		team: Team.red,
+	);
+
+	print(player.team); // Team.red
+
+	// string으로 만들기 위해서는 조금은 복잡한 과정을 거쳐야한다
+	var teamString = player.team.toString().split('.').last;
+	print(teamString == 'red'); // true
 }
 ```
 
@@ -734,4 +748,5 @@ class Player {
 - [ ] [Dart : Documentation](https://dart.dev/language)
 - [ ] [What is the difference between dynamic and Object in dart?](https://stackoverflow.com/questions/31257735/what-is-the-difference-between-dynamic-and-object-in-dart)
 - [ ] [Linter for Dart](https://dart-lang.github.io/linter/lints/index.html)
-- [ ]
+- [ ] [Dart How to get the name of an enum as a String](https://stackoverflow.com/questions/29567236/dart-how-to-get-the-name-of-an-enum-as-a-string)
+- [ ] 
