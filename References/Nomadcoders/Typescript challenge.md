@@ -1,3 +1,10 @@
+---
+created: 2023-04-03 13:04
+category: Typescript
+type: assignment
+inclusion: false
+---
+
 # Assignment # 04
 
 ```ts
