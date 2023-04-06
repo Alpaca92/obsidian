@@ -812,8 +812,34 @@ void main() {
 }
 ```
 
-[](Named constructors)
+````ad-tip
+title: syntactic sugar for `super`
 
+[Named constructors](Dart.md##Named%20constructors)를 사용하여 간소화할 수 있다
+
+```dart
+class Human {
+	final String name;
+	
+	Human({ required this.name });
+	
+	void sayHello() {
+		print("Hi, my name is $name");
+	}
+}
+
+enum Team { blue, red }
+
+class player extends Human {
+	final Team team;
+
+	Player({
+		required this.team,
+		required super.name,
+	});
+}
+```
+````
 
 
 
