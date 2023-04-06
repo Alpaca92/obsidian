@@ -576,12 +576,16 @@ class Player {
 	int xp;
 	String team;
 
-	Player ({ required this.name, required this.xp, required this.team });
+	Player ({
+		required this.name,
+		required this.xp,
+		required this.team,
+	});
 
 	// 일반적인 방법
 	Player.createBlue({
 		required String name,
-		required int xp
+		required int xp,
 	})  : this.name = name,
 				this.xp = xp,
 				this.team = 'blue';
@@ -772,7 +776,7 @@ title: @override [_ref_](https://dart-lang.github.io/linter/lints/annotate_overr
 class Human {
 	final String name;
 	
-	Human(this.name);
+	Human({ required this.name });
 	
 	void sayHello() {
 		print("Hi, my name is $name");
@@ -787,17 +791,28 @@ class player extends Human {
 	Player({
 		required this.team,
 		required String name,
-	}) : super(name);
+	}) : super(name: name);
+
+	@override
+	void sayHello() {
+		super.sayHello();
+		print("and I play for $team");
+	}
 }
 
 void main() {
 	var player = Player(
-		
+		team: Team.red,
+		name: 'ayaan',
 	);
+
+	player.sayHello();
+	// Hi, my name is ayaan
+	// and I play for Team.red
 }
 ```
 
-
+[](Named constructors)
 
 
 
