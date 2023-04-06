@@ -841,7 +841,32 @@ class player extends Human {
 ```
 ````
 
+## Mixins
+`mixin`은 `constructor` 가 없는 클래스를 의미한다
 
+```dart
+class Strong {
+	final double strengthLevel = 150.9;
+}
+
+class QuickRunner {
+	void runQuick() {
+		print("Run Quick !!");
+	}
+}
+
+class Player with Strong, QuickRunner {
+	final String name;
+
+	Player({ required this.name });
+}
+
+void main() {
+	var player = Player(name: 'ayaan');
+	print(player.strengthLevel); // 150.9
+	player.runQuick(); // Run Quick !!
+}
+```
 
 
 
