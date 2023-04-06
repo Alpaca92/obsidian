@@ -868,7 +868,11 @@ void main() {
 }
 ```
 
+```ad-check
+title: Differences between `extends`, `mixin` and `implements`
 
+(작성중..)
+```
 
 #### References
 - [ ] [NomadCoders : Dart 시작하기](https://nomadcoders.co/dart-for-beginners/)
@@ -878,4 +882,4 @@ void main() {
 - [ ] [What is the difference between dynamic and Object in dart?](https://stackoverflow.com/questions/31257735/what-is-the-difference-between-dynamic-and-object-in-dart)
 - [ ] [Linter for Dart](https://dart-lang.github.io/linter/lints/index.html)
 - [ ] [Dart How to get the name of an enum as a String](https://stackoverflow.com/questions/29567236/dart-how-to-get-the-name-of-an-enum-as-a-string)
-- [ ] 
+- [ ] [DART - DIFFERENCES BETWEEN EXTENDS, IMPLEMENTS AND MIXIN](https://www.topcoder.com/thrive/articles/dart-differences-between-extends-implements-and-mixin)
