@@ -731,15 +731,40 @@ void main() {
 
 ## Abstract classes
 `abstract class`는 `instance`를 절대 생성하지 않는 클래스를 말한다
-즉, 누군가의 부모 클래스로만 존재한다는 소리다
+즉, 누군가의 청사진이 되는 클래스를 말한다
 
 ```dart
 abstract class Human {
 	void walk();
 }
+
+class Player extends Human {
+	String name;
+	int xp;
+
+	Player ({ required this.name, required this.xp });
+
+	@override
+	void walk() {
+		print("i'm walking");
+	}
+}
+
+void main() {
+	var player = Player(name: 'ayaan', xp: 10);
+	player.walk(); // i'm walking
+}
 ```
 
+```ad-tip
+title: @override [_ref_](https://dart-lang.github.io/linter/lints/annotate_overrides.html)
 
+`@override` annotation이 필수는 아니지만,
+
+관행적으로 코드의 가독성을 높이기 위해 부모클래스의 것들을 덮어쓸 때 사용한다
+```
+
+## Inheritance
 
 
 
