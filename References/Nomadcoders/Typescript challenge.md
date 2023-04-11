@@ -6,7 +6,6 @@ inclusion: false
 ---
 
 # Assignment # 04
-
 ```ts
 /**
 * 현재까지 배운 것을 토대로, 두 함수에 대한 구현과 함께
@@ -49,7 +48,6 @@ console.log(newItems)
 ```
 
 # Assignment # 05
-
 ```ts
 class Word {
     constructor(
@@ -199,7 +197,6 @@ console.log(dictionary.count());
 ```
 
 # Assignment # 07
-
 ```ts
 /**
  * LocalStorage API: Use abstract classes and generics.
@@ -261,11 +258,71 @@ class CustomLocalStorage<T> extends CustomLocalStorageBasis<T> {
     }
 }
 
-interface GeolocationAPI {
-    
+interface SuccessFn {
+    (position: Position): Position;
 }
 
-// test customLocalStorage
+interface Position {
+    coords: {
+        latitude: number;
+        longitude: number;
+    }
+}
+
+interface ErrorFn {
+    (error: GeoError): GeoError;
+}
+
+interface GeoError {
+    code: 1 | 2 | 3;
+    message: string;
+}
+
+interface Options {
+    maximumAge: number;
+    timout: number;
+    enableHighAccuracy: boolean;
+}
+
+interface GeolocationAPI {
+    getCurrentPosition(successFn: SuccessFn): void;
+    getCurrentPosition(successFn: SuccessFn, errorFn: ErrorFn): void;
+    getCurrentPosition(successFn: SuccessFn, errorFn: ErrorFn, options: Options): void;
+}
+
+class CustomGeolocation implements GeolocationAPI {
+    private ok;
+    private position: Position = {
+        coords: {
+            longitude: 100 * Math.random(),
+            latitude: 300 * Math.random()
+        }
+    }
+    private error: GeoError = {
+        code: 1,
+        message: "permission denied."
+    }
+
+    constructor(ok: boolean) {
+        this.ok = ok;
+    };
+
+    getCurrentPosition(successFn: SuccessFn, errorFn?: ErrorFn, options?: Options): void {
+        if (this.ok) {
+            setTimeout(() => {
+                successFn(this.position);
+            }, options?.timout ?? 0);
+            return;
+        } else if (errorFn !== undefined) {
+            setTimeout(() => {
+                errorFn(this.error);
+            }, options?.timout ?? 0);
+            return;
+        }
+    }
+}
+
+// test CustomLocalStorage
 const cls = new CustomLocalStorage<string>;
 cls.setItem('test1', 'string value');
 cls.getItem('test');
@@ -273,8 +330,13 @@ console.log(cls.getItem('test1'));
 cls.clear();
 console.log(cls.getItem('test1'));
 
+// test CustomGeolocation
+const cg = new CustomGeolocation(true);
+cg.getCurrentPosition((position) => {
+    console.log(position);
+    return position;
+});
 ```
 
 # Assignment # 09
-
 졸업작품 제출하기
