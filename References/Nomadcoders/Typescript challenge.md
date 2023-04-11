@@ -51,72 +51,101 @@ console.log(newItems)
 # Assignment # 05
 
 ```ts
-/**
- * 타입스크립트의 클래스를 이용하여 Dict (딕셔너리. dictionary) 클래스를 만드세요. Dict 클래스는 아래와 같은 메소드들을 갖고 있어야 합니다.
- * add: 단어를 추가함
- * get: 단어의 정의를 반환함
- * delete: 단어를 삭제함
- * update: 단어를 업데이트 함
- * showAll: 딕셔너리의 단어를 모두 프린트함
- * count: 딕셔너리 단어들의 총 수를 반환함
- */
-
-class Dict {
-    private words
-    constructor() {
-        this.words = new Map<string, string>();
-    }
-    public add (word: Word) {
-        if (!this.words.has(word.term)) {
-            this.words.set(word.term, word.def);
-            return `${word.term} was successfully added to Dict`;
-        } else {
-            return `⚠️Duplicated: ${word.term} is already exist in Dict`;
-        }
-    }
-    public get (term: string) {
-        if (this.words.has(term)) {
-            return this.words.get(term) || '';
-        } else {
-            return `⚠️Not Found: ${term} can't found in Dict`;
-        }
-    }
-    public delete(term: string) {
-        if (this.words.delete(term)) {
-            return `${term} has been successfully removed from Dict`;
-        } else {
-            return `⚠️Not Found: ${term} can't found in Dict`;
-        }
-    }
-    public update (word: Word) {
-        if (this.words.has(word.term)) {
-            this.words.set(word.term, word.def);
-            return `${word.term} was successfully updated to Dict`;
-        } else {
-            return `⚠️Not Found: ${word.term} can't found in Dict`;
-        }
-    }
-    public showAll () {
-        if(this.words.size > 0) {
-            for (const [term, def] of this.words) {
-                console.log(`- ${term}: ${def}`);
-            }
-            return `${this.words.size} words have been printed`;
-        } else {
-            return `No words are currently saved`;
-        }
-    }
-    public count() {
-        return `Dict contains ${this.words.size} words`;
-    }
-}
-
 class Word {
     constructor(
         public term: string,
-        public def: string,
-    ) {}
+        public definition: string,
+    ) { }
 }
+
+interface IWord {
+    term: string,
+    definition: string,
+}
+
+class Dict {
+    private words: Map<string, string>
+
+    constructor() {
+        this.words = new Map();
+    }
+
+    add(word: Word) {
+        if (this.words.get(word.term) === undefined) {
+            this.words.set(word.term, word.definition);
+        } else {
+            console.error(`${word.term} is already exist in Dict`);
+        }
+    }
+
+    get(term: string) {
+        if (this.words.get(term) !== undefined) {
+            console.log(`* ${term}: ${this.words.get(term)}`);
+        } else {
+            console.error(`${term} isn't exist in Dict`);
+        }
+    }
+
+    delete(term: string) {
+        if (this.words.get(term) !== undefined) {
+            this.words.delete(term);
+        } else {
+            console.error(`${term} isn't exist in Dict`);
+        }
+    }
+
+    update(word: Word) {
+        if (this.words.get(word.term) !== undefined) {
+            this.words.set(word.term, word.definition);
+        } else {
+            console.error(`${word.term} isn't exist in Dict`);
+        }
+    }
+
+    showAll() {
+        for (const [term, definition] of this.words) {
+            console.log(`* ${term}: ${definition}`);
+        }
+    }
+
+    count = (): number => this.words.size;
+
+    upsert(word: Word) {
+        this.words.set(word.term, word.definition);
+    }
+
+    exists(term: string) {
+        console.log(this.words.get(term) !== undefined ? `${term} is exist in this Dict` : `${term} isn't exist in Dict`);
+    }
+
+    bulkAdd(words: IWord[]) {
+        words.forEach((word) => {
+            this.add(new Word(word.term, word.definition));
+        })
+    }
+
+    bulkDelete(terms: string[]) {
+        terms.forEach((term) => {
+            this.delete(term);
+        })
+    }
+}
+
+const dict = new Dict();
+
+const word = new Word('test', 'test de1f');
+
+dict.add(word);
+
+dict.get('test');
+
+const word2 = new Word('test2', 'test');
+
+dict.update(word2);
+
+const words = [{ term: "김치", definition: "대박이네~" }, { term: "아파트", definition: "비싸네~" }, { term: "아파트", definition: "비싸네~" }];
+
+dict.bulkAdd(words);
 ```
 
 ```ts
