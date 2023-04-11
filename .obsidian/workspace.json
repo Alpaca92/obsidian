@@ -151,8 +151,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -167,7 +166,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "0b073b002ec2f982",
+  "active": "64d478fcc572a37e",
   "lastOpenFiles": [
     "References/Syntax of Dart.md",
     "README.md",
