@@ -218,9 +218,61 @@ console.log(dictionary.count());
  * geolocation.clearWatch(id);
  */
 
-class LocalStorage {
-
+interface LocalStorageAPI<T> {
+    [key: string]: T;
 }
+
+abstract class CustomLocalStorageBasis<T> {
+    protected storage: LocalStorageAPI<T> = {};
+
+    abstract setItem(key: string, value: T): void;
+    abstract getItem(key: string): (T | null);
+    abstract clearItem(key: string): void;
+    abstract clear(): void;
+}
+
+class CustomLocalStorage<T> extends CustomLocalStorageBasis<T> {
+    setItem(key: string, value: T) {
+        this.storage[key] = value;
+    }
+
+    getItem(key: string): (T | null) {
+        const value = this.storage[key];
+
+        if (value) {
+            return value;
+        }
+        console.error(`* ${key} doesn't exist in this Storage`);
+        return null;
+    }
+
+    clearItem(key: string) {
+        const value = this.storage[key];
+
+        if (value) {
+            delete this.storage[key];
+            return;
+        }
+        console.error(`* ${key} doesn't exist in this Storage`);
+    }
+
+    clear() {
+        this.storage = {};
+    }
+}
+
+interface GeolocationAPI {
+    
+}
+
+// test customLocalStorage
+const cls = new CustomLocalStorage<string>;
+cls.setItem('test1', 'string value');
+cls.getItem('test');
+console.log(cls.getItem('test1'));
+cls.clear();
+console.log(cls.getItem('test1'));
+
 ```
 
 # Assignment # 09
