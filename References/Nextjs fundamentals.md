@@ -106,7 +106,7 @@ export default function Seo({ title }) {
 }
 ```
 
-위 코드에서 발생한 경고인데, 얼핏보면 문제가 없어보이지만 `children`과 `child nodes`의 차이를 명확히알면 금방 해결이 가능하다 [ref](https://youtu.be/rhvec8cXLlo)
+위 코드에서 발생한 경고인데, 이 경고를 해결하려면 `children elements`와 `childNodes`의 차이를 명확히 알아야 한다 [ref](https://youtu.be/rhvec8cXLlo)
 
 
 
