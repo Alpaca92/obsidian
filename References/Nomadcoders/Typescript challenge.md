@@ -284,10 +284,16 @@ interface Options {
     enableHighAccuracy: boolean;
 }
 
+type Id = number;
+
 interface GeolocationAPI {
     getCurrentPosition(successFn: SuccessFn): void;
     getCurrentPosition(successFn: SuccessFn, errorFn: ErrorFn): void;
     getCurrentPosition(successFn: SuccessFn, errorFn: ErrorFn, options: Options): void;
+    watchPosition(successFn: SuccessFn): Id;
+    watchPosition(successFn: SuccessFn, errorFn: ErrorFn): Id;
+    watchPosition(successFn: SuccessFn, errorFn: ErrorFn, options: Options): Id;
+    clearWatch(id: Id): void;
 }
 
 class CustomGeolocation implements GeolocationAPI {
@@ -313,12 +319,28 @@ class CustomGeolocation implements GeolocationAPI {
                 successFn(this.position);
             }, options?.timout ?? 0);
             return;
-        } else if (errorFn !== undefined) {
+        } else if (!this.ok && errorFn !== undefined) {
             setTimeout(() => {
                 errorFn(this.error);
             }, options?.timout ?? 0);
             return;
         }
+    }
+
+    watchPosition(successFn: SuccessFn, errorFn?: ErrorFn, options?: Options): Id {
+        const { coords: { longitude, latitude } } = this.position;
+        const delay = Math.floor(10000 * Math.random());
+
+        // If 'longitude' or 'latitude' is changed
+        const id = setInterval(() => {
+            this.getCurrentPosition(successFn, errorFn, options);
+        }, delay);
+
+        return id;
+    }
+
+    clearWatch(id: Id): void {
+        clearInterval(id);
     }
 }
 
@@ -336,6 +358,15 @@ cg.getCurrentPosition((position) => {
     console.log(position);
     return position;
 });
+
+const id = cg.watchPosition((position) => {
+    console.log(position);
+    return position;
+});
+
+setTimeout(() => {
+    cg.clearWatch(id);
+}, 20000);
 ```
 
 # Assignment # 09
