@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "References/Nomadcoders/Typescript challenge.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "References/Nomadcoders/Typescript challenge.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "References/Nomadcoders/Typescript challenge.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "References/Nomadcoders/Typescript challenge.md"
+                "file": "README.md"
               }
             }
           },
@@ -169,8 +169,11 @@
   },
   "active": "febf8676735ec834",
   "lastOpenFiles": [
+    "References/Nextjs fundamentals.md",
     "References/Syntax of Dart.md",
     "References/Nomadcoders/Typescript challenge.md",
+    "References/fundamentals.md",
+    "References/Nextjs",
     "README.md",
     "Templates/default.md",
     "Named constructors.md",
