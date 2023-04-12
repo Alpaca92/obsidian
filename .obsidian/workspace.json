@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "f9d08dc85009a24d",
+        "id": "15cf83063a0d1abd",
         "type": "tabs",
         "children": [
           {
-            "id": "febf8676735ec834",
+            "id": "ad95cb952f9bf189",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "References/Nomadcoders/Typescript challenge.md",
+                "file": "References/Difference between children and childNodes.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "7e97b3d5d5061370",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "References/Nomadcoders/Typescript challenge.md",
+                "file": "References/Difference between children and childNodes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "References/Nomadcoders/Typescript challenge.md",
+                "file": "References/Difference between children and childNodes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "References/Nomadcoders/Typescript challenge.md"
+                "file": "References/Difference between children and childNodes.md"
               }
             }
           },
@@ -167,18 +166,18 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "febf8676735ec834",
+  "active": "ad95cb952f9bf189",
   "lastOpenFiles": [
-    "References/Nextjs fundamentals.md",
-    "README.md",
     "References/Syntax of Dart.md",
-    "References/Nomadcoders/Typescript challenge.md",
+    "README.md",
+    "References/Difference between children and childNodes.md",
+    "References/Nomadcoders challenges/Typescript.md",
+    "References/Nextjs fundamentals.md",
     "References/fundamentals.md",
     "References/Nextjs",
     "Templates/default.md",
     "Named constructors.md",
     "References/Nomadcoders/Untitled.md",
-    "References/Untitled.md",
     "Untitled.md",
     "Etc..md",
     "Templates",
