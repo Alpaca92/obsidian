@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "References/Nextjs fundamentals.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "References/Nextjs fundamentals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "References/Nextjs fundamentals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "References/Nextjs fundamentals.md"
               }
             }
           },
@@ -169,12 +169,12 @@
   },
   "active": "febf8676735ec834",
   "lastOpenFiles": [
+    "README.md",
     "References/Nextjs fundamentals.md",
     "References/Syntax of Dart.md",
     "References/Nomadcoders/Typescript challenge.md",
     "References/fundamentals.md",
     "References/Nextjs",
-    "README.md",
     "Templates/default.md",
     "Named constructors.md",
     "References/Nomadcoders/Untitled.md",

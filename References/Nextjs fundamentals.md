@@ -90,7 +90,30 @@ title: Invalid `<Link>` with `<a>` child [_ref_](https://nextjs.org/docs/message
 ```
 ````
 
+# Warnings
+다양한 경고들에 대해 해결했던 방법들을 기록해두고자 한다
+
+## \<title> problem: A title element received an array with more than 1 element as children
+```jsx
+import Head from "next/head";
+
+export default function Seo({ title }) {
+  return (
+    <Head>
+      <title>{title} | Next Movies</title>
+    </Head>
+  );
+}
+```
+
+위 코드에서 발생한 경고인데, 얼핏보면 문제가 없어보이지만 `children`과 `child nodes`의 차이를 명확히알면 금방 해결이 가능하다 [ref](https://youtu.be/rhvec8cXLlo)
+
+
+
+
 #### References
 - [ ] [NomadCoders: Next.js fundamentals](https://nomadcoders.co/nextjs-fundamentals/)
 - [ ] [CSR vs SSR 특징 및 차이](https://hahahoho5915.tistory.com/52)
 - [ ] [Next.js의 렌더링 과정(Hydrate) 알아보기](https://www.howdy-mj.me/next/hydrate)
+- [ ] [Warning: \<title> problem: A title element received an array with more than 1 element as children](https://github.com/vercel/next.js/discussions/38256#discussioncomment-3070196)
+- [ ] 
