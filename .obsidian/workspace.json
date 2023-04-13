@@ -11,9 +11,11 @@
             "id": "781102830097d16a",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "References/files/JS-DOM-Traversal-Cheat Sheet.pdf"
+                "file": "References/Difference between children and childNodes.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "References/files/JS-DOM-Traversal-Cheat Sheet.pdf",
+                "file": "References/Difference between children and childNodes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "References/files/JS-DOM-Traversal-Cheat Sheet.pdf",
+                "file": "References/Difference between children and childNodes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "References/files/JS-DOM-Traversal-Cheat Sheet.pdf"
+                "file": "References/Difference between children and childNodes.md"
               }
             }
           },
@@ -164,19 +166,21 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "0b073b002ec2f982",
+  "active": "781102830097d16a",
   "lastOpenFiles": [
-    "References/Difference between children and childNodes.md",
+    "References/Nextjs fundamentals.md",
     "References/files/JS-DOM-Traversal-Cheat Sheet.pdf",
+    "files/JS-DOM-Traversal-Cheat.md",
+    "References/Difference between children and childNodes.md",
+    "files",
+    "References/files/JS-DOM-Traversal-Cheat.md",
+    "References/Syntax of Dart.md",
     "\"./References/files/JS.md",
     "\"./References/files",
     "\"./References",
     "\".",
     "files/JS.md",
-    "files",
     "References/files",
-    "References/Nextjs fundamentals.md",
-    "References/Syntax of Dart.md",
     "README.md",
     "References/Nomadcoders challenges/Typescript.md",
     "References/fundamentals.md",
