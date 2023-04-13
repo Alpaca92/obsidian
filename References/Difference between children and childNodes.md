@@ -21,8 +21,21 @@ inclusion: true
 '내가 작성한 코드에서 `<title>`태그에는 `children elements`가 없는데 무슨소리지?'라고 생각하며 구글링을 해보니 `children elements`와  `childNodes`에 대한 얘기들이 나왔다
 
 # Children Elements
+자식요소는 말 그대로 자식의 요소만을 말한다
+이해를 돕기위해 HTML 코드를 살펴보며 설명을 이어나가도록 하자
 
+```html
+<nav>
+	<ul>
+		<li>first</li>
+		<li>second</li>
+		<li>third</li>
+	</ul>
+</nav>
+```
 
+위 코드에서 `<nav>`의 자식은 `<ul>`이며, `<ul>`의 자식은 세 개의 `<li>`태그다
+`Element.children`
 
 
 
