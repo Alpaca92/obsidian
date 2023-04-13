@@ -119,4 +119,4 @@ title: 주석(\<!-- -->)이 생기는 이유
 - [ ] [\<title> problem: A title element received an array with more than 1 element as children #38256](https://github.com/vercel/next.js/discussions/38256#discussioncomment-3070196)
 - [ ] [Web Dev Simplified: Do You Know The Difference?](https://youtu.be/rhvec8cXLlo)
 - [ ] [MDN: Element: children property](https://developer.mozilla.org/en-US/docs/Web/API/Element/children)
-- [ ] [test](files/JS-DOM-Traversal-Cheat Sheet.pdf)
+- [ ] [test](files/JS-DOM-Traversal-Cheat-Sheet.pdf)

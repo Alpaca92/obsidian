@@ -150,8 +150,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -168,12 +167,13 @@
   },
   "active": "781102830097d16a",
   "lastOpenFiles": [
+    "References/files/JS-DOM-Traversal-Cheat-Sheet.pdf.md",
+    "References/Difference between children and childNodes.md",
     "References/Nextjs fundamentals.md",
+    "References/files/JS-DOM-Traversal-Cheat.md",
     "References/files/JS-DOM-Traversal-Cheat Sheet.pdf",
     "files/JS-DOM-Traversal-Cheat.md",
-    "References/Difference between children and childNodes.md",
     "files",
-    "References/files/JS-DOM-Traversal-Cheat.md",
     "References/Syntax of Dart.md",
     "\"./References/files/JS.md",
     "\"./References/files",
