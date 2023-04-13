@@ -64,7 +64,10 @@ console.log(ulCollection); // HTMLCollection(3) [li, li, li]
 </nav>
 ```
 
+```js
+const navCollection = document.querySelector('nav').childNodes;
 
+```
 
 
 
