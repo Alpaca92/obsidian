@@ -114,10 +114,9 @@ title: 주석(\<!-- -->)이 생기는 이유
    XSS과 같은 공격을 방지하기 위해 입력값에 포함된 스크립트를 실행할 수 없도록 함
 ```
 
-
 #### References
 - [ ] [What is the difference between children and childNodes in JavaScript?](https://stackoverflow.com/a/7935719/14460912)
 - [ ] [\<title> problem: A title element received an array with more than 1 element as children #38256](https://github.com/vercel/next.js/discussions/38256#discussioncomment-3070196)
 - [ ] [Web Dev Simplified: Do You Know The Difference?](https://youtu.be/rhvec8cXLlo)
 - [ ] [MDN: Element: children property](https://developer.mozilla.org/en-US/docs/Web/API/Element/children)
-- [ ] 
+- [ ] [Children vs childNode cheat sheet](./References/files/JS-DOM-Traversal-Cheat Sheet.pdf)
