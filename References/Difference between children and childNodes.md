@@ -92,8 +92,14 @@ NodeList(1) [
 # Conclusion
 이제 다시 처음의 경고로 돌아가보자
 
-`A title element received an array with **more than 1 element as children**`
+`<title>이 둘 이상의 요소를 가진 배열을 자식으로 받았다`는 말은 `NodeList`에 `text` 이외의 것도 같이 담겨있다는 말이다
+실제로 소스를 보면 `Next.js`에서 위 `<title>`내의 텍스트는 다음과 같이 렌더링된다
 
+```html
+<!-- if title is 'home' -->
+
+<title><!-- -->Home | Next Movies</title>
+```
 
 
 
