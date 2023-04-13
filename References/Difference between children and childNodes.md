@@ -51,7 +51,18 @@ console.log(ulCollection); // HTMLCollection(3) [li, li, li]
 `Element.childNodes`를 통해 확인 할 수 있는데 이는 [NodeList](https://developer.mozilla.org/en-US/docs/Web/API/NodeList)를 반환하며,
 각 `elemenet`들의 구성 노드들(Element, text, comment)이 담겨져 있다
 
-위 HTML 코드
+위 HTML 코드에 comment를 달아보자
+
+```html
+<nav>
+	<!-- comments -->
+	<ul>
+		<li>first</li>
+		<li>second</li>
+		<li>third</li>
+	</ul>
+</nav>
+```
 
 
 
