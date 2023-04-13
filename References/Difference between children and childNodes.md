@@ -18,7 +18,10 @@ inclusion: true
 ```
 ````
  
-내가 작성한 코드에서 `<title>`태그에 
+'내가 작성한 코드에서 `<title>`태그에는 `children elements`가 없는데 무슨소리지?'라고 생각하며 구글링을 해보니 `children elements`와  `childNodes`에 대한 얘기들이 나왔다
+
+# Children Elements
+
 
 
 
