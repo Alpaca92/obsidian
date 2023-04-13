@@ -21,7 +21,7 @@ inclusion: true
 '내가 작성한 코드에서 `<title>`태그에는 `children elements`가 없는데 무슨소리지?'라고 생각하며 구글링을 해보니 `children elements`와  `childNodes`에 대한 얘기들이 나왔다
 
 # Children Elements
-자식요소는 말 그대로 자식의 요소만을 말한다
+[Children Elements](https://developer.mozilla.org/en-US/docs/Web/API/Element/children)는 말 그대로 자식의 요소만을 말한다
 이해를 돕기위해 HTML 코드를 살펴보며 설명을 이어나가도록 하자
 
 ```html
@@ -35,7 +35,17 @@ inclusion: true
 ```
 
 위 코드에서 `<nav>`의 자식은 `<ul>`이며, `<ul>`의 자식은 세 개의 `<li>`태그다
-`Element.children`
+이를 확인할 수 있는게 `Element.children`이며, 자식 태그들을 담은 [HTMLCollection](https://developer.mozilla.org/en-US/docs/Web/API/HTMLCollection)을 반환한다
+
+```js
+const navCollection = document.querySelector('nav').children;
+const ulCollection = document.querySelector('ul').children;
+
+console.log(navCollection); // HTMLCollection(1) [ul]
+console.log(ulCollection); // HTMLCollection(3) [li, li, li]
+```
+
+
 
 
 
