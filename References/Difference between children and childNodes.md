@@ -46,7 +46,12 @@ console.log(ulCollection); // HTMLCollection(3) [li, li, li]
 ```
 
 # childNodes
-[childNodes](https://developer.mozilla.org/en-US/docs/Web/API/Node/childNodes)는 `node`들로 구성되며, 각 `node`들은  `Element.childNodes`는 [NodeList](https://developer.mozilla.org/en-US/docs/Web/API/NodeList)를 반환하는데 이는 각 `elemenet`들의 구성 노드들(Element, text, comment)로 이뤄져 있다
+[childNodes](https://developer.mozilla.org/en-US/docs/Web/API/Node/childNodes)는 주어진 요소의 자식 노드 모음(Collection)을 반환한다
+
+`Element.childNodes`를 통해 확인 할 수 있는데 이는 [NodeList](https://developer.mozilla.org/en-US/docs/Web/API/NodeList)를 반환하며,
+각 `elemenet`들의 구성 노드들(Element, text, comment)이 담겨져 있다
+
+위 HTML 코드
 
 
 
