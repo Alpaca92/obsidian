@@ -49,7 +49,7 @@ console.log(ulCollection); // HTMLCollection(3) [li, li, li]
 [childNodes](https://developer.mozilla.org/en-US/docs/Web/API/Node/childNodes)는 주어진 요소의 자식 노드 모음(Collection)을 반환한다
 
 `Element.childNodes`를 통해 확인 할 수 있는데 이는 [NodeList](https://developer.mozilla.org/en-US/docs/Web/API/NodeList)를 반환하며,
-각 `elemenet`들의 구성 노드들(Element, text, comment)이 담겨져 있다
+각 `elemenet`들의 구성 노드들(element, text, comment)이 담겨져 있다
 
 위 HTML 코드에 comment를 달아보자
 
@@ -66,9 +66,33 @@ console.log(ulCollection); // HTMLCollection(3) [li, li, li]
 
 ```js
 const navCollection = document.querySelector('nav').childNodes;
+const liCollection = document.querySelector('li').childNodes;
 
+console.log(navCollection);
+/*
+NodeList(5) [
+	text, // nodeValue: "\n\t"
+	comment, // nodeValue: " comments " 
+	text, // nodeValue: "\n\t"
+	ul, // nodeValue: null
+	text // nodeValue: "\n"
+]
+*/
+
+console.log(ulCollection);
+/*
+NodeList(1) [
+	text, // nodeValue: "first"
+]
+*/
 ```
 
+위와 같이 `NodeList`에는 각각의 개행 및 탭, 요소 안의 텍스트, 주석, 요소가 모두 담겨있다
+
+# Conclusion
+이제 다시 처음의 경고로 돌아가보자
+
+`A title element received an array with **more than 1 element as children**`
 
 
 
