@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "References/Nomadcoders challenges/Typescript.md",
+                "file": "References/Nextjs fundamentals.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "References/Nomadcoders challenges/Typescript.md",
+                "file": "References/Nextjs fundamentals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "References/Nomadcoders challenges/Typescript.md",
+                "file": "References/Nextjs fundamentals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "References/Nomadcoders challenges/Typescript.md"
+                "file": "References/Nextjs fundamentals.md"
               }
             }
           },
@@ -169,11 +169,11 @@
   },
   "active": "bf9638732a4ebd6c",
   "lastOpenFiles": [
+    "References/Nomadcoders challenges/Typescript.md",
     "References/Typescript fundamentals.md",
     "References/Difference between children and childNodes.md",
     "References/Syntax of Dart.md",
     "References/Nextjs fundamentals.md",
-    "References/Nomadcoders challenges/Typescript.md",
     "Difference.md",
     "References/files/JS-DOM-Traversal-Cheat Sheet.pdf",
     "References/files/JS-DOM-Traversal-Cheat-Sheet.pdf.md",
