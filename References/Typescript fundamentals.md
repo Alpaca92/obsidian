@@ -157,12 +157,23 @@ import { init } from "some-package"; // 에러 발생
 
 ```ts
 // some-package.d.ts
+interface Config {
+	url: string;
+}
 
 declare module "some-package" {
-	
+	function init(config: Config): boolean;
+	function exit(code: number): number;
 }
 ```
 
+하지만 우리가 패키지들의 정의를 하나하나 해줄 수는 없는 노릇이다
+이는 매우 지루한 작업이 될테고, 패키지 작성자의 의도에 맞게 작성됐다는 보장도 없다
+이를 위해 우리는 일반적으로 [DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped)을 사용한다
+
+
+
 #### References
 - [ ] [NomadCoders : Typescript for beginners](https://nomadcoders.co/typescript-for-beginners/)
-- [ ]
+- [ ] [Typescript: Declaration files](https://www.typescriptlang.org/docs/handbook/declaration-files/introduction.html)
+- [ ] 
