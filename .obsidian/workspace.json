@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "47de4c8bee41d214",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "References/Difference between children and childNodes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "bf9638732a4ebd6c",
             "type": "leaf",
             "state": {
@@ -31,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -182,10 +169,10 @@
   },
   "active": "bf9638732a4ebd6c",
   "lastOpenFiles": [
-    "References/Syntax of Dart.md",
-    "References/Typescript fundamentals.md",
-    "References/Nextjs fundamentals.md",
     "References/Difference between children and childNodes.md",
+    "References/Typescript fundamentals.md",
+    "References/Syntax of Dart.md",
+    "References/Nextjs fundamentals.md",
     "References/Nomadcoders challenges/Typescript.md",
     "Difference.md",
     "References/files/JS-DOM-Traversal-Cheat Sheet.pdf",

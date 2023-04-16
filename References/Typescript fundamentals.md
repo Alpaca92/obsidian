@@ -171,9 +171,11 @@ declare module "some-package" {
 이는 매우 지루한 작업이 될테고, 패키지 작성자의 의도에 맞게 작성됐다는 보장도 없다
 이를 위해 우리는 일반적으로 [DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped)을 사용한다
 
-
+```bash
+$ npm i crypto-js
+$ npm i @types/crypto-js # DefinitelyTyped에서 정의된 타입스크립트 정의파일 설치
+```
 
 #### References
 - [ ] [NomadCoders : Typescript for beginners](https://nomadcoders.co/typescript-for-beginners/)
 - [ ] [Typescript: Declaration files](https://www.typescriptlang.org/docs/handbook/declaration-files/introduction.html)
-- [ ] 
