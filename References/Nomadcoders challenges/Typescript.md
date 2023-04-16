@@ -475,4 +475,21 @@ class Geolocator implements GeolocationAPI {
 
 ```
 # Assignment # 09
-졸업작품 제출하기
+```ts
+// lodash 함수들 타입 작성하기
+
+type Predicate<T> = (value: T, index: number, arr: T[]) => boolean;
+type Iteratee<T, U> = (value: T, index: number, arr: T[]) => U;
+
+declare module "lodash" {
+    function head<T>(arr: T[]): T | undefined;
+    function hasIn<T extends object>(obj: T, key: string): boolean;
+    function isBoolean<T>(value: T): boolean;
+    function toString<T>(value: T): string;
+    function split(str: string, separator: RegExp | string, limit?: number): string[];
+    function hasPath<T extends object>(obj: T, path: string[] | string): boolean;
+    function filter<T>(arr: T[], predicate: Predicate<T>): T[];
+    function every<T>(arr: T[], predicate: Predicate<T>): boolean;
+    function map<T, U>(arr: T[], iteratee: Iteratee<T, U>): U[];
+}
+```

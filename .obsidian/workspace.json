@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "References/Typescript fundamentals.md",
+                "file": "References/Nomadcoders challenges/Typescript.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "References/Typescript fundamentals.md",
+                "file": "References/Nomadcoders challenges/Typescript.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "References/Typescript fundamentals.md",
+                "file": "References/Nomadcoders challenges/Typescript.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "References/Typescript fundamentals.md"
+                "file": "References/Nomadcoders challenges/Typescript.md"
               }
             }
           },
@@ -169,8 +169,8 @@
   },
   "active": "bf9638732a4ebd6c",
   "lastOpenFiles": [
-    "References/Difference between children and childNodes.md",
     "References/Typescript fundamentals.md",
+    "References/Difference between children and childNodes.md",
     "References/Syntax of Dart.md",
     "References/Nextjs fundamentals.md",
     "References/Nomadcoders challenges/Typescript.md",
