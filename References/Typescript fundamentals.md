@@ -133,9 +133,35 @@ title: `private` vs `protected` vs `public`
 우리는 대부분 자바스크립트로 만들어진 패키지를 가져다가 사용한다
 즉, 이를 타입스크립트 환경에서 사용하기 위해서는 해당 패키지에 대한 타입들의 정의가 필요하다
 
-여기 어떠한 패키지가 있고, 당연히 이 패키지는 `node_modules`
+여기 어떠한 패키지가 있고, 당연히 이 패키지는 `node_modules`안에 있다
 
+```js
+export function init(config) {
+  return true;
+}
 
+export function exit(code) {
+  return code + 1;
+}
+```
+
+이 패키지를 타입스크립트 환경에서 사용한다면 어떤 타입을 사용해야되는지 알 수 없고
+`strictmode: true`라면 `import`할 때 에러마저 발생한다
+
+```ts
+import { init } from "some-package"; // 에러 발생
+```
+
+이를 정의해주기 위해 `declare`를 사용한다
+정의파일을 생성할 때에는 일반적으로 `<filename>.d.ts` 와 같이 이름을 짓는다
+
+```ts
+// some-package.d.ts
+
+declare module "some-package" {
+	
+}
+```
 
 #### References
 - [ ] [NomadCoders : Typescript for beginners](https://nomadcoders.co/typescript-for-beginners/)
