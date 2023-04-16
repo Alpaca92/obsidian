@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "e4e8d84ea31336cf",
+        "id": "4dc181438d375803",
         "type": "tabs",
         "children": [
           {
-            "id": "781102830097d16a",
+            "id": "47de4c8bee41d214",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "References/Difference between children and childNodes.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -69,7 +65,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "7e97b3d5d5061370",
@@ -85,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "References/Difference between children and childNodes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +98,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "References/Difference between children and childNodes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +119,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "References/Difference between children and childNodes.md"
-              }
+              "state": {}
             }
           },
           {
@@ -150,7 +143,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -165,13 +159,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "781102830097d16a",
+  "active": "47de4c8bee41d214",
   "lastOpenFiles": [
-    "References/files/JS-DOM-Traversal-Cheat-Sheet.pdf.md",
-    "References/Difference between children and childNodes.md",
     "References/Nextjs fundamentals.md",
-    "References/files/JS-DOM-Traversal-Cheat.md",
+    "References/Difference between children and childNodes.md",
+    "Difference.md",
     "References/files/JS-DOM-Traversal-Cheat Sheet.pdf",
+    "References/files/JS-DOM-Traversal-Cheat-Sheet.pdf.md",
+    "References/files/JS-DOM-Traversal-Cheat.md",
     "files/JS-DOM-Traversal-Cheat.md",
     "files",
     "References/Syntax of Dart.md",

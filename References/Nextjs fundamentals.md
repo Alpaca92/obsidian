@@ -106,9 +106,7 @@ export default function Seo({ title }) {
 }
 ```
 
-위 코드에서 발생한 경고인데, 이 경고를 해결하려면 `children elements`와 `childNodes`의 차이를 명확히 알아야 한다 [ref](https://youtu.be/rhvec8cXLlo)
-
-
+위 코드에서 발생한 경고인데, 이 경고를 해결하려면 `children elements`와 `childNodes`의 차이를 명확히 알아야 한다 [ref](obsidian://open?vault=Obsidian%20Vault&file=References%2FDifference%20between%20children%20and%20childNodes)
 
 
 #### References
