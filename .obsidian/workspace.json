@@ -11,11 +11,28 @@
             "id": "47de4c8bee41d214",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "References/Difference between children and childNodes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bf9638732a4ebd6c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "References/Typescript fundamentals.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -82,6 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "References/Typescript fundamentals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "References/Typescript fundamentals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +138,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "References/Typescript fundamentals.md"
+              }
             }
           },
           {
@@ -159,17 +180,19 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "47de4c8bee41d214",
+  "active": "bf9638732a4ebd6c",
   "lastOpenFiles": [
+    "References/Syntax of Dart.md",
+    "References/Typescript fundamentals.md",
     "References/Nextjs fundamentals.md",
     "References/Difference between children and childNodes.md",
+    "References/Nomadcoders challenges/Typescript.md",
     "Difference.md",
     "References/files/JS-DOM-Traversal-Cheat Sheet.pdf",
     "References/files/JS-DOM-Traversal-Cheat-Sheet.pdf.md",
     "References/files/JS-DOM-Traversal-Cheat.md",
     "files/JS-DOM-Traversal-Cheat.md",
     "files",
-    "References/Syntax of Dart.md",
     "\"./References/files/JS.md",
     "\"./References/files",
     "\"./References",
@@ -177,7 +200,6 @@
     "files/JS.md",
     "References/files",
     "README.md",
-    "References/Nomadcoders challenges/Typescript.md",
     "References/fundamentals.md",
     "References/Nextjs",
     "Templates/default.md",
