@@ -222,10 +222,30 @@ const admin = {
 
 console.log(admin.fullName); // John Smith
 /*
-여기서 fullName
+get fullName의 this는 admin을 가르킨다
+하지만, admin에는 name, surname이라는 프로퍼티가 존재하지 않으므로
+프로토타입 체인에 의해 user.name, user.surname을 가져온다
+*/
+
+admin.fullName = "Alice Cooper"; // setter 함수가 실행 됨
+/*
+set fullName의 this 역시 admin을 가르킨다
+따라서 admin에 name, surname이라는 프로퍼티를 생성하고
+각각 ALice, Cooper라는 값을 할당한다
+*/
+
+console.log(admin.fullName); // Alice Cooper
+/*
+이제 본인(admin)에 name, surname 프로퍼티가 존재하므로
+user의 name, surname이 아닌 본인의 name, surname의 값을 사용하여 리턴한다
 */
 ```
 
+```ad-quote
+title: 메서드는 공유되지만, 객체의 상태는 공유되지 않는다
+```
+
+## for...in loop
 
 
 #### References
