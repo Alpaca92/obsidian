@@ -19,11 +19,32 @@ inclusion: true
 `object`에서 프로퍼티를 읽으려고 하는데 해당 프로퍼티가 없다면 프로토타입에서 프로퍼티를 찾는게 프로토타입의 동작방식이다
 
 ```ad-quote
-title: 쉽게 말해서, 내가 부모님의 통장에 접근(?)할 수 있는 것과 같다
+title: 내가 부모님의 통장에 접근(?)할 수 있는 것과 같으며, 그래서 '상속'이라 한다
 ```
 
+아래의 예시처럼 `__proto__`를 사용하면 값을 설정할 수도 있다
 
+```js
+const animal = {
+	eats: true
+};
 
+const rabbit = {
+	jumps: true
+}
+
+rabbit.__proto__ = animal;
+
+console.log(rabbit.eats); // true
+```
+
+```ad-info
+title: `__proto__`는 `[[Prototype]]`용 `getter·setter`이다
+
+`__proto__`는 `[[Prototype]]`의 `getter·setter`로 사용되었지만,
+
+최근에는 `Object.getPrototypeOf`나 `Object.setPrototypeOf`를 써서 프로토타입을 획득(get)하거나 설정(set)한다
+```
 
 
 
