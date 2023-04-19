@@ -28,7 +28,7 @@ a,
 .cm-header-4,
 .cm-header-5,
 .cm-header-6 {
-  color: #f49967;
+  color: #f49967 !important;
 }
 
 .HyperMD-header-1,
@@ -43,7 +43,14 @@ a,
   padding-bottom: 10px !important;
 }
 
-.HyperMD-header-3 > 
+.HyperMD-header-1 > .cm-line > .cm-escape,
+.HyperMD-header-2 > .cm-line > .cm-escape,
+.HyperMD-header-3 > .cm-line > .cm-escape,
+.HyperMD-header-4 > .cm-line > .cm-escape,
+.HyperMD-header-5 > .cm-line > .cm-escape,
+.HyperMD-header-6 > .cm-line > .cm-escape {
+  color: #fa8072 !important;
+}
 
 .cm-link,
 .admonition-content .external-link {

@@ -20,7 +20,7 @@
             }
           },
           {
-            "id": "c47947b82e58fc99",
+            "id": "143e520b3a630d13",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -180,11 +180,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "c47947b82e58fc99",
+  "active": "143e520b3a630d13",
   "lastOpenFiles": [
-    "README.md",
-    "References/Javascript deep dive.md",
     "References/Nextjs fundamentals.md",
+    "References/Javascript deep dive.md",
+    "README.md",
     "References/Nomadcoders challenges/Typescript.md",
     "References/Typescript fundamentals.md",
     "References/Difference between children and childNodes.md",

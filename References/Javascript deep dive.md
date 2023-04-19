@@ -13,6 +13,8 @@ inclusion: true
 위 생각을 실현시켜 주는 것이 바로 자바스크립트의 `프로토타입 상속(prototypal inheritance)`다
 
 ### \[\[Prototype]]
+자바스크립트의 객체는 명세서에서 명명한 `[[Prototype]]`이라는 숨김 프로퍼티를 갖는다
+이 숨김 프로퍼티 값은 `null`이거나 다른 객체에 대한 참조가 되는데, 다른 객체를 참조하는 경우 **참조 대상을 '프로토타입(prototype)''**이라고 부른다
 
 
 
@@ -23,6 +25,5 @@ inclusion: true
 
 
 
-
-#### References
+#### References \[]
 - [ ] 
