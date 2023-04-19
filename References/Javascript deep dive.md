@@ -186,11 +186,13 @@ console.log(admin);
 /*
 {
 	isAdmin: true,
-	name: 'alpaca',
-	surname: 'test'}
+	name: 'Alice',
+	surname: 'Cooper'
+}
 */
 ```
 
+## The value of "this"
 
 
 
