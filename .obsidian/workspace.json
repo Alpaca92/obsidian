@@ -4,23 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4dc181438d375803",
+        "id": "ddf61895ac38c520",
         "type": "tabs",
         "children": [
           {
-            "id": "bf9638732a4ebd6c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "References/Nextjs fundamentals.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "143e520b3a630d13",
+            "id": "83f440599ab89185",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -31,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -180,15 +167,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "0b073b002ec2f982",
+  "active": "83f440599ab89185",
   "lastOpenFiles": [
+    "References/Nomadcoders challenges/Typescript.md",
+    "References/Nextjs fundamentals.md",
+    "References/Javascript deep dive.md",
     "References/assets/images/Pasted image 20230419211639.png",
     "References/assets/images",
     "References/assets",
-    "References/Nextjs fundamentals.md",
-    "References/Javascript deep dive.md",
     "README.md",
-    "References/Nomadcoders challenges/Typescript.md",
     "References/Typescript fundamentals.md",
     "References/Difference between children and childNodes.md",
     "References/Syntax of Dart.md",

@@ -61,3 +61,7 @@ a,
 .cm-url {
   color: #fa8072 !important;
 }
+
+.admonition p {
+  line-height: 28px;
+}

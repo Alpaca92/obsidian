@@ -38,15 +38,32 @@ rabbit.__proto__ = animal;
 console.log(rabbit.eats); // true
 ```
 
-```ad-info
+````ad-info
 title: `__proto__`는 `[[Prototype]]`용 `getter·setter`이다
 
 `__proto__`는 `[[Prototype]]`의 `getter·setter`로 사용되었지만,
 
-최근에는 `Object.getPrototypeOf`나 `Object.setPrototypeOf`를 써서 프로토타입을 획득(get)하거나 설정(set)한다
+최근에는 [Object.getPrototypeOf](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/getPrototypeOf)나 [Object.setPrototypeOf](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/setPrototypeOf)를 써서 프로토타입을 획득(get)하거나 설정(set)한다
+
+즉, 위의 예시코드를 `Object.setPrototypeOf`를 사용하여 작성하면 아래와 같다
+
+```js
+const animal = {
+	eats: true
+};
+
+const rabbit = {
+	jumps: true
+}
+
+Object.setPrototypeOf(rabbit, animal);
+
+console.log(rabbit.eats); // true
 ```
+````
 
-
+위 동작을 좀 더 자세히 살펴보면
+1. 
 
 
 
