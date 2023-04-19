@@ -62,9 +62,43 @@ console.log(rabbit.eats); // true
 ```
 ````
 
-위 동작을 좀 더 자세히 살펴보면
-1. 
+위 동작을 그림과 같이 좀 더 자세히 살펴보면 다음과 같다
+![[Pasted image 20230419214436.png]]
+1. `rabbit`에는 `jumps`프로퍼티가 선언 됨
+2. `__proto__`에 의해 `rabbit`에 `[[Prototype]]`으로 `animal`이 설정 됨
+3. `rabbit.eats`에서 `eats`프로퍼티가 `rabbit`에게 없어 `[[Prototype]]`인 `animal`에서 `eats`프로퍼티를 찾음
+4. `eats`프로퍼티가 존재하여 value인 true를 반환함
 
+위와 같이 프로토타입에게서 상속받은 프로퍼티를 **상속 프로퍼티(inherited property)** 라고 한다
+
+프로토타입은 길이의 제한이 없다
+즉, 부모만 존재하는 것이 하는 조부모, 증조부모, 고조부모··· 이렇게 무한히 존재할 수 있다는 말이다
+
+```js
+const animal = {
+  eats: true,
+  walk() {
+    console.log("동물이 걷습니다.");
+  }
+};
+
+const rabbit = {
+  jumps: true,
+  __proto__: animal
+};
+
+const longEar = {
+  earLength: 10,
+  __proto__: rabbit
+};
+
+longEar.walk(); // 동물이 걷습니다.
+console.log(longEar.jumps); // true
+```
+![[Pasted image 20230419215049.png]]
+이러한 프로토타입 체이닝에도 두 가지의 제약사항이 있다
+1. ㅂㅈㅇ
+2. 
 
 
 
