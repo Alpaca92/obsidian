@@ -302,13 +302,22 @@ console.log(Object.getPrototypeOf(animal) === Object.prototype);
 // true
 
 console.log(Object.getPrototypeOf(rabbit) === animal); // ture
-/* rabbit 객체도 `rabbit.__proto__ = animal`이 되기 전까지는
+/*
+rabbit 객체도 rabbit.__proto__ = animal이 되기 전까지는
 Object.prototype을 상속 받았다
 */
 ```
 
 ````
 
+그런데 이상한 점은 `for...in`안에서 `Object.prototype`에서 상속된 것들은 출력되지 않는데 이유가 뭘까?
+
+답은 `Object.prototype`에 있는 모든 메서드의 `enumberable`플래그는 `false`이고,
+`for...in`은 오직 열거 가능한 프로퍼티만 순회하기 때문이다
+
+```ad-faq
+title: 
+```
 
 
 
