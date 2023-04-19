@@ -151,7 +151,45 @@ rabbt.walk(); // 토끼가 뜁니다
 
 `rabbit.walk()`를 호출하면 프로토타입에 있는 메서드가 실행되지 않고, 객체 `rabbit`에 직접 추가한 메서드가 실행된다
 ![[Pasted image 20230420042128.png]]
-그런데 [접근자 프로퍼티(Property accessors)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Property_accessors)는 setter 함수를 
+그런데 [접근자 프로퍼티(Property accessors)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Property_accessors)는 setter 함수를 사용해 프로퍼티에 값을 할당하므로 아래 예시에서 접근자 프로퍼티에 값을 할당하면 객체(`admin`)에 프로퍼티(`fullName`)가 추가되는게 아니라 setter 함수가 호출되면서 위 예시와는 조금 다르게 동작한다
+
+```js
+cosnt user = {
+  name: "John",
+  surname: "Smith",
+
+  set fullName(value) {
+    [this.name, this.surname] = value.split(" ");
+  },
+
+  get fullName() {
+    return `${this.name} ${this.surname}`;
+  }
+};
+
+const admin = {
+  __proto__: user,
+  isAdmin: true
+};
+
+console.log(admin.fullName); // John Smith
+
+admin.fullName = "Alice Cooper"; // setter 함수가 실행 됨
+
+// setter에 의해 추가된 admin의 프로퍼티(name, surname)에서 값을 가져옴
+console.log(admin.fullName); // Alice Cooper
+
+// 본래 user에 있었던 프로퍼티 값
+console.log(user.fullName); // John Smith
+
+console.log(admin);
+/*
+{
+	isAdmin: true,
+	name: 'alpaca',
+	surname: 'test'}
+*/
+```
 
 
 
