@@ -78,7 +78,7 @@ console.log(rabbit.eats); // true
 const animal = {
   eats: true,
   walk() {
-    console.log("동물이 걷습니다.");
+    console.log("동물이 걷습니다");
   }
 };
 
@@ -92,7 +92,7 @@ const longEar = {
   __proto__: rabbit
 };
 
-longEar.walk(); // 동물이 걷습니다.
+longEar.walk(); // 동물이 걷습니다
 console.log(longEar.jumps); // true
 ```
 ![[Pasted image 20230419215049.png]]
@@ -131,8 +131,30 @@ title: 즉, 객체는 두 개의 객체를 상속받지 못한다
 즉, 프로퍼티를 추가, 수정하거나 지우는 연산은 객체에서 직접 해야한다
 
 ```js
+const animal = {
+	eats: true,
+	walk() {
+		/* rabbit은 이제 이 메서드를 사용하지 않습니다 */
+	}
+};
 
+const rabbit = {
+	__proto__: animal
+};
+
+rabbit.walk = function() {
+	console.log("토끼가 뜁니다")
+};
+
+rabbt.walk(); // 토끼가 뜁니다
 ```
+
+`rabbit.walk()`를 호출하면 프로토타입에 있는 메서드가 실행되지 않고, 객체 `rabbit`에 직접 추가한 메서드가 실행된다
+![[Pasted image 20230420042128.png]]
+그런데 [접근자 프로퍼티(Property accessors)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Property_accessors)는 setter 함수를 
+
+
+
 
 
 
