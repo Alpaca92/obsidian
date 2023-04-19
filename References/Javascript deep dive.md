@@ -127,7 +127,12 @@ title: 즉, 객체는 두 개의 객체를 상속받지 못한다
 ```
 
 ## Writing doesn't use prototype
-[(작성중...)](https://ko.javascript.info/prototype-inheritance#ref-2)
+프로토타입은 프로퍼티를 읽을 때만 사용한다
+즉, 프로퍼티를 추가, 수정하거나 지우는 연산은 객체에서 직접 해야한다
+
+```js
+
+```
 
 
 
