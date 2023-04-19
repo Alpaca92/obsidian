@@ -126,7 +126,7 @@ title: Uncaught TypeError: Cyclic \_\_proto__ value
 title: 즉, 객체는 두 개의 객체를 상속받지 못한다
 ```
 
-## Writing doesn't use prototype
+### Writing doesn't use prototype
 프로토타입은 프로퍼티를 읽을 때만 사용한다
 즉, 프로퍼티를 추가, 수정하거나 지우는 연산은 객체에서 직접 해야한다
 
@@ -192,7 +192,7 @@ console.log(admin);
 */
 ```
 
-## The value of "this"
+### The value of "this"
 위 예시를 보면 마치 `this`가 가르키는 객체가 변하는 것처럼보여 `this`엔 어떤 값이 들어가는지 혼란스러울 수 있는데, 그렇다면 아래의 말을 꼭 기억하자
 
 ```ad-quote
@@ -245,7 +245,7 @@ user의 name, surname이 아닌 본인의 name, surname의 값을 사용하여 �
 title: 메서드는 공유되지만, 객체의 상태는 공유되지 않는다
 ```
 
-## for...in loop
+### for...in loop
 `for...in`은 상속 프로퍼티도 순회대상에 포함시킨다
 
 ```js
@@ -315,11 +315,12 @@ Object.prototype을 상속 받았다
 답은 `Object.prototype`에 있는 모든 메서드의 `enumberable`플래그는 `false`이고,
 `for...in`은 오직 열거 가능한 프로퍼티만 순회하기 때문이다
 
-```ad-faq
-title: 
-```
+## F.prototype
+[(작성중...)](https://ko.javascript.info/function-prototype)
 
-
+# Class [ref](https://javascript.info/classes)
+## Class basic syntax
+[(작성중...)](https://ko.javascript.info/class)
 
 
 
