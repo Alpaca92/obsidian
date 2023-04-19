@@ -292,9 +292,22 @@ for(const prop in rabbit) {
 ![[Pasted image 20230420052235.png]]
 `rabbit`은 `animal`을, `animal`은 `Object.prototype`을 그리고 `Object.prototype`은 `null`을 상속받고 있다
 
-```ad-hint
-title: `animal`이 `Object.prototype`을 상속받는 이유는 `animal`을 객체 리터럴 방식으로 선언했기 때문이다
+````ad-hint
+title: `animal`이 `Object.prototype`을 상속받는 이유
+
+자바스크립트에서 모든 객체는 기본적으로 `Object.prototype`을 상속받는다
+
+```js
+console.log(Object.getPrototypeOf(animal) === Object.prototype);
+// true
+
+console.log(Object.getPrototypeOf(rabbit) === animal); // ture
+/* rabbit 객체도 `rabbit.__proto__ = animal`이 되기 전까지는
+Object.prototype을 상속 받았다
+*/
 ```
+
+````
 
 
 
