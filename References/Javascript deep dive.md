@@ -246,6 +246,58 @@ title: 메서드는 공유되지만, 객체의 상태는 공유되지 않는다
 ```
 
 ## for...in loop
+`for...in`은 상속 프로퍼티도 순회대상에 포함시킨다
+
+```js
+const animal = {
+  eats: true
+};
+
+const rabbit = {
+  jumps: true,
+  __proto__: animal
+};
+
+// Object.keys는 객체 자신의 키만 반환한다
+console.log(Object.keys(rabbit)); // jumps
+
+// for..in은 객체 자신의 키와 상속 프로퍼티의 키 모두를 순회한다
+for(const prop in rabbit) console.log(prop); // jumps, eats
+```
+
+[obj.hasOwnProperty(key)](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty)를 이용하면 상속 프로퍼티를 순회 대상에서 제외할 수 있다
+
+```js
+const animal = {
+  eats: true
+};
+
+const rabbit = {
+  jumps: true,
+  __proto__: animal
+};
+
+for(const prop in rabbit) {
+  const isOwn = rabbit.hasOwnProperty(prop);
+
+  if (isOwn) {
+    console.log(`객체 자신의 프로퍼티: ${prop}`); // 객체 자신의 프로퍼티: jumps
+  } else {
+    console.log(`상속 프로퍼티: ${prop}`); // 상속 프로퍼티: eats
+  }
+}
+```
+
+위 예시를 그림으로 표현하면 다음과 같다
+![[Pasted image 20230420052235.png]]
+`rabbit`은 `animal`을, `animal`은 `Object.prototype`을, `Object.prototype`은 `null`을 상속받고 있다
+```ad-hint
+title: `animal`이 `Object.prototype`을 상속받는 이유는 
+```
+
+
+
+
 
 
 #### References
