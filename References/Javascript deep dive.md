@@ -290,9 +290,10 @@ for(const prop in rabbit) {
 
 위 예시를 그림으로 표현하면 다음과 같다
 ![[Pasted image 20230420052235.png]]
-`rabbit`은 `animal`을, `animal`은 `Object.prototype`을, `Object.prototype`은 `null`을 상속받고 있다
+`rabbit`은 `animal`을, `animal`은 `Object.prototype`을 그리고 `Object.prototype`은 `null`을 상속받고 있다
+
 ```ad-hint
-title: `animal`이 `Object.prototype`을 상속받는 이유는 
+title: `animal`이 `Object.prototype`을 상속받는 이유는 `animal`을 객체 리터럴 방식으로 선언했기 때문이다
 ```
 
 
