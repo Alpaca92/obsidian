@@ -193,8 +193,38 @@ console.log(admin);
 ```
 
 ## The value of "this"
+위 예시를 보면 마치 `this`가 가르키는 객체가 변하는 것처럼보여 `this`엔 어떤 값이 들어가는지 혼란스러울 수 있는데, 그렇다면 아래의 말을 꼭 기억하자
 
+```ad-quote
+title: this는 프로토타입에 영향을 받지 않는다
+```
 
+이제 다시 위 예시를 들여다 보자
+
+```js
+cosnt user = {
+  name: "John",
+  surname: "Smith",
+
+  set fullName(value) {
+    [this.name, this.surname] = value.split(" ");
+  },
+
+  get fullName() {
+    return `${this.name} ${this.surname}`;
+  }
+};
+
+const admin = {
+  __proto__: user,
+  isAdmin: true
+};
+
+console.log(admin.fullName); // John Smith
+/*
+여기서 fullName
+*/
+```
 
 
 
