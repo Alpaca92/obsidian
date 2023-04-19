@@ -97,8 +97,37 @@ console.log(longEar.jumps); // true
 ```
 ![[Pasted image 20230419215049.png]]
 이러한 프로토타입 체이닝에도 두 가지의 제약사항이 있다
-1. ㅂㅈㅇ
-2. 
+
+1. `__proto__`의 값은 객체나 `null`만 가능하며, 다른 자료형은 무시된다
+2. 순환 참조(circular reference)는 허용되지 않는다
+
+```js
+// 순환 참조
+
+const a = {};
+
+const b = {
+	__proto__: a
+};
+
+const c = {
+	__proto__: b
+};
+
+a.__proto__ = c; // error
+```
+```ad-error
+title: Uncaught TypeError: Cyclic \_\_proto__ value
+```
+
+여기에 더하여 객체엔 오직 하나의 `[[Prototype]]`만이 존재한다
+
+```ad-quote
+title: 즉, 객체는 두 개의 객체를 상속받지 못한다
+```
+
+## Writing doesn't use prototype
+[(작성중...)](https://ko.javascript.info/prototype-inheritance#ref-2)
 
 
 
