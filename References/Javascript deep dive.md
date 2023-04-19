@@ -14,7 +14,13 @@ inclusion: true
 
 ### \[\[Prototype]]
 자바스크립트의 객체는 명세서에서 명명한 `[[Prototype]]`이라는 숨김 프로퍼티를 갖는다
-이 숨김 프로퍼티 값은 `null`이거나 다른 객체에 대한 참조가 되는데, 다른 객체를 참조하는 경우 **참조 대상을 '프로토타입(prototype)''**이라고 부른다
+이 숨김 프로퍼티 값은 `null`이거나 다른 객체에 대한 참조가 되는데, 다른 객체를 참조하는 경우 **참조 대상을 '프로토타입(prototype)'** 이라고 부른다
+![[Pasted image 20230419211639.png]]
+`object`에서 프로퍼티를 읽으려고 하는데 해당 프로퍼티가 없다면 프로토타입에서 프로퍼티를 찾는게 프로토타입의 동작방식이다
+
+```ad-quote
+title: 쉽게 말해서, 내가 부모님의 통장에 접근(?)할 수 있는 것과 같다
+```
 
 
 
@@ -24,6 +30,6 @@ inclusion: true
 
 
 
-
-#### References \[]
+#### References
+- [ ] [Modern javascript tutorial](https://javascript.info/)
 - [ ] 

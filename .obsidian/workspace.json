@@ -180,8 +180,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "143e520b3a630d13",
+  "active": "0b073b002ec2f982",
   "lastOpenFiles": [
+    "References/assets/images/Pasted image 20230419211639.png",
+    "References/assets/images",
+    "References/assets",
     "References/Nextjs fundamentals.md",
     "References/Javascript deep dive.md",
     "README.md",
@@ -190,7 +193,7 @@
     "References/Difference between children and childNodes.md",
     "References/Syntax of Dart.md",
     "Difference.md",
-    "References/files/JS-DOM-Traversal-Cheat Sheet.pdf",
+    "References/assets/files/JS-DOM-Traversal-Cheat Sheet.pdf",
     "References/files/JS-DOM-Traversal-Cheat-Sheet.pdf.md",
     "References/files/JS-DOM-Traversal-Cheat.md",
     "files/JS-DOM-Traversal-Cheat.md",
@@ -200,7 +203,7 @@
     "\"./References",
     "\".",
     "files/JS.md",
-    "References/files",
+    "References/assets/files",
     "References/fundamentals.md",
     "References/Nextjs",
     "Templates/default.md",
@@ -209,7 +212,6 @@
     "Untitled.md",
     "Etc..md",
     "Templates",
-    "References",
     "연말정산.md",
     "Card.md"
   ]
