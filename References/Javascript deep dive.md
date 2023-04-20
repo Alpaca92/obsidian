@@ -390,10 +390,43 @@ console.log(rabbit2.name); // black
 [[#F.prototype]]에 대해 설명할 때 처음 들었던 예시를 다시 살펴보도록 하자
 
 ```js
+const animal = {
+	eats: true
+};
 
+function Rabbit(name) {
+	this.name = name;
+}
+
+Rabbit.prototype = animal;
+
+const rabbit = new Rabbit("white");
+
+console.log(rabbit.constructor === Rabbit); // false
+
+// 참고
+console.log(rabbit.constructor === animal.constructor); // true
+
+console.log(animal.constructor === Object); // true
+// animal을 객체 리터럴로 생성했기 때문에 constructor가 Object이다
+// 즉 아래의 비교도 true가 된다
+
+console.log(animal.constructor === new Object().constructor); // true
 ```
 
+이러한 상황을 방지하기 위해 보통은 `prototype`에 프로퍼티를 추가·제거한다
 
+```js
+const animal = {
+	eats: true
+};
+
+function Rabbit(name) {
+	this.name = name;
+}
+
+Rabbit.prototype.animal = animal;
+```
 
 
 # Class [ref](https://javascript.info/classes)
