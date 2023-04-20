@@ -347,7 +347,23 @@ console.log(rabbit.eats); // true
 프로퍼티 `"prototype"`은 `constructor`프로퍼티 하나만 있는 객체를 가리키는데,
 `constructor`프로퍼티는 함수 자신을 가리킨다
 
+```js
+function Rabbit() {}
+
+console.log(Rabbit.prototype); // { constructore: Rabbit };
 ```
+![[Pasted image 20230421044330.png]]
+위 예시에 대해 좀 더 살펴보자
+
+```js
+const rabbit = new Rabbit();
+
+console.log(Rabbit.prototype.constructor === Rabbit); // true
+console.log(rabbit.constructor === Rabbit); // true
+console.log(Rabbit.prototype === rabbit.__proto__); // true
+
+// 참고
+console.log(Rabbit.__proto__ === Function.prototype); // true
 ```
 
 
