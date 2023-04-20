@@ -326,4 +326,5 @@ Object.prototype을 상속 받았다
 
 #### References
 - [ ] [Modern javascript tutorial](https://javascript.info/)
+- [ ] [Modern javascript deep dive](https://product.kyobobook.co.kr/detail/S000001766445)
 - [ ] 
