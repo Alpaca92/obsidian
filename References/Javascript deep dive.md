@@ -365,11 +365,33 @@ console.log(Rabbit.prototype === rabbit.__proto__); // true
 // 참고
 console.log(Rabbit.__proto__ === Function.prototype); // true
 ```
+![[Pasted image 20230421045333.png]]
+`constructor`프로퍼티는 기존에 있던 객체의 `constructor`를 사용해 새로운 객체를 만들 때 사용할 수 있다
 
+```js
+function Rabbit(name) {
+	this.name = name;
+}
 
+const rabbit = new Rabbit('white');
+console.log(rabbit.name); // white
 
+const rabbit2 = new rabbit.constructor("black");
+console.log(rabbit2.name); // black
+```
 
+위와 같은 방법은 객체가 있는데 해당 객체를 만들 때 어떤 생성자가 사용되었는지 알 수 없는 경우
+(객체가 서드 파티 라이브러리에서 온 경우 등)에 유용하게 쓸 수 있다
 
+`constructor`에서 가장 중요한 점은 자바스크립트는 알맞는 `constructor`값을 보장하지 않는다는 점이다
+
+즉, **"함수엔 기본으로 `prototype`이라는 프로퍼티가 존재한다"** 라는 명제만 존재할 뿐 그 이후 `constructor`에게 있을 여러 일들은 전적으로 개발자에게 달려있다는 말이다  
+
+[[#F.prototype]]에 대해 설명할 때 처음 들었던 예시를 다시 살펴보도록 하자
+
+```js
+
+```
 
 
 
