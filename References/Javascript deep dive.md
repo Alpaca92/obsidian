@@ -341,8 +341,14 @@ console.log(rabbit.eats); // true
 여기서 가로 화살표는 일반 프로퍼티인 `"prototype"`을, 세로 화살표는 `[[Prototype]]`
 즉, `rabbit`이 `animal`을 상속받았다는 것을 의미한다
 
+### Default F.prototype, constructor property
+개발자가 특별히 할당하지 않더라도 모든 함수는 기본적으로 `prototype`프로퍼티를 갖는다
 
+프로퍼티 `"prototype"`은 `constructor`프로퍼티 하나만 있는 객체를 가리키는데,
+`constructor`프로퍼티는 함수 자신을 가리킨다
 
+```
+```
 
 
 
