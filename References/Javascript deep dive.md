@@ -457,10 +457,23 @@ console.log(rabbit.constructor === Rabbit.prototype.constructor);
 // 4️⃣ true
 ```
 
-위 예시에서 1번이 `false`인 이유는 `Rabbit.constructor`는 열거불가이기 때문에 `spread operator`에 의해 열거(복사)되지 않았기 때문이다
+위 예시에서 1️⃣ 번이 `false`인 이유는 `Rabbit.constructor`는 열거불가이기 때문에 `spread operator`에 의해 열거(복사)되지 않았기 때문이다
 
 따라서 
 ````
+
+## Native prototypes
+[(작성중...)](https://javascript.info/native-prototypes)
+
+
+
+
+
+
+
+
+
+
 
 # Class [ref](https://javascript.info/classes)
 ## Class basic syntax
