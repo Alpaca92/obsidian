@@ -417,15 +417,16 @@ console.log(animal.constructor === new Object().constructor); // true
 이러한 상황을 방지하기 위해 보통은 `prototype`에 프로퍼티를 추가·제거한다
 
 ```js
-const animal = {
-	eats: true
-};
-
 function Rabbit(name) {
 	this.name = name;
 }
 
-Rabbit.prototype.animal = animal;
+Rabbit.prototype.eats = true;
+
+const rabbit = new Rabbit('white');
+
+console.log(rabbit.eats); // true
+console.log(rabbit.constructor === Rabbit); // true
 ```
 
 
