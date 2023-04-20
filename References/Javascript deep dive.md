@@ -459,7 +459,9 @@ console.log(rabbit.constructor === Rabbit.prototype.constructor);
 
 위 예시에서 1️⃣ 번이 `false`인 이유는 `Rabbit.constructor`는 열거불가이기 때문에 `spread operator`에 의해 열거(복사)되지 않았기 때문이다
 
-따라서 
+따라서 `constructor`는 객체 리터럴(`{...}`)을 사용할 때 `Object`에게서 상속받은 것이다
+
+그리고 2️⃣ 번이 `true`인 이유도 두 객체 모두 결국 `Object`에게서 상속을 받고 있기 때문이다
 ````
 
 ## Native prototypes
