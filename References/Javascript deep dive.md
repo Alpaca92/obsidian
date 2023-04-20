@@ -447,8 +447,19 @@ Rabbit.prototype = { ...Rabbit.prototype, ...animal };
 
 const rabbit = new Rabbit();
 
-console.log(rabbit.constructor); // undefined
+console.log(rabbit.constructor === Rabbit);
+// 1️⃣ false
+console.log(rabbit.constructor === animal.constructor)
+// 2️⃣ true
+console.log(animal.constructor === Object);
+// 3️⃣ true
+console.log(rabbit.constructor === Rabbit.prototype.constructor);
+// 4️⃣ true
 ```
+
+위 예시에서 1번이 `false`인 이유는 `Rabbit.constructor`는 열거불가이기 때문에 `spread operator`에 의해 열거(복사)되지 않았기 때문이다
+
+따라서 
 ````
 
 # Class [ref](https://javascript.info/classes)
