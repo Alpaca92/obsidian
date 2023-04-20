@@ -317,9 +317,29 @@ Object.prototype을 상속 받았다
 
 ## F.prototype
 우리는 리터럴 뿐만 아니라 `new F()`와 같은 생성자 함수로도 새로운 객체를 만둘 수 있다는 것을 안다
-생성자 함수로 객체를 만들었을 때 리터럴 방식과 다른점은 생ㅅ
 
+생성자 함수로 객체를 만들었을 때 리터럴 방식과 다른점은 생성자 함수의 프로토타입이 객체인 경우 `new`연산자를 사용해 마든 객체는 생성자 함수의 프로토타입 정보를 사용해 `[[Prototype]]`을 설정한다는 것이다
 
+```js
+const animal = {
+	eats: true
+};
+
+function Rabbit(name) {
+	this.name = name;
+}
+
+Rabbit.prototype = animal;
+
+const rabbit = new Rabbit("white"); // rabbit.__proto__ === animal
+
+console.log(rabbit.eats); // true
+```
+
+`Rabbit.prototype = animal`은 **`new Rabbit`을 호출해 만든 새로운 객체의 `[[Prototype]]`을 `animal`로 설정하라**는 것을 의미합니다
+![[Pasted image 20230421041646.png]]
+여기서 가로 화살표는 일반 프로퍼티인 `"prototype"`을, 세로 화살표는 `[[Prototype]]`
+즉, `rabbit`이 `animal`을 상속받았다는 것을 의미한다
 
 
 
