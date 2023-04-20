@@ -316,7 +316,21 @@ Object.prototype을 상속 받았다
 `for...in`은 오직 열거 가능한 프로퍼티만 순회하기 때문이다
 
 ## F.prototype
-[(작성중...)](https://ko.javascript.info/function-prototype)
+우리는 리터럴 뿐만 아니라 `new F()`와 같은 생성자 함수로도 새로운 객체를 만둘 수 있다는 것을 안다
+생성자 함수로 객체를 만들었을 때 리터럴 방식과 다른점은 생ㅅ
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # Class [ref](https://javascript.info/classes)
 ## Class basic syntax
