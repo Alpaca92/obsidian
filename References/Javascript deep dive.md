@@ -429,6 +429,27 @@ console.log(rabbit.eats); // true
 console.log(rabbit.constructor === Rabbit); // true
 ```
 
+````ad-warning
+title: constructor는 `[[Enumerable]]: false`이다
+
+위 예시에서 [spread operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)를 사용해 `prototype`을 다시 정의하면 `constructor`가 복사되지 않는데 이는 `constructor`가 열거가능하지 않는 프로퍼티이기 때문이다
+
+```js
+const animal = {
+	jumps: true,
+	eats: true,
+	works: true,
+};
+
+function Rabbit () {}
+
+Rabbit.prototype = { ...Rabbit.prototype, ...animal };
+
+const rabbit = new Rabbit();
+
+console.log(rabbit.constructor); // undefined
+```
+````
 
 # Class [ref](https://javascript.info/classes)
 ## Class basic syntax
