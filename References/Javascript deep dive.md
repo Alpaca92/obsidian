@@ -471,10 +471,14 @@ console.log(rabbit.constructor === Rabbit.prototype.constructor);
 ### Object.prototype
 ```js
 const obj = {};
-console.log(obj); // 
+console.log(obj); // [object Object];
 ```
 
+`[object Object]`문자열을 생성하는 코드는 어디에 있을까? 아니 그보다 애초에 왜 `{}`가 아닌 `[object Object]`가 출력되었을까?
+이는 `obj.toString()`으로 동작된 결과이고 당연히 `toString()`은 프로토타입 체인에서 왔다
 
+`obj = new Object()`를 줄이면 `obj = {}`가 된다
+여기서 `Object`는 내장 객체 생성자 함수인데, 
 
 
 
