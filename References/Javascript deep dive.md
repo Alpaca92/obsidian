@@ -499,7 +499,7 @@ console.log(Object.prototype.__proto__); // null
 ```
 
 ````ad-help
-title: `Object.prototype.toString`이 진짜로 하는 일은 뭘까?
+title: `Object.prototype.toString`이 진짜로 하는 일은 뭘까? [_ref_](https://medium.com/오늘의-프로그래밍/자바스크립트에서-object-object-가-대체-뭘까-fe55b754e709)
 
 `Object.prototype.toString`은 인자로 들어온 값이 어떤 클래스 타입인지 감지해서 알려준다
 
