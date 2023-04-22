@@ -538,7 +538,24 @@ console.log(Array.prototype.toString === Object.prototype.toString);
 title: 사진은 보기좋게 편집된 것으로 실제로는 각 prototype안에 더 많은 프로퍼티가 존재한다
 ```
 
-### 
+### Primitives
+문자열과 숫자, 불린값은 객체가 아니다
+그런데, 이런 원시 타입 값의 프로퍼티에 접근하려고 하면 내장 생성자 [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String), [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number), [Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)을 사용하는 임시 래퍼(wrapper) 객체가 생성된다
+임시 래퍼 객체는 이런 메서드를 제공하고 난 후 사라진다
+
+
+
+
+
+
+
+
+
+
+### Changing native prototypes
+
+### Borrwing from prototypes
+
 
 
 
