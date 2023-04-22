@@ -555,7 +555,9 @@ title: `null`, `undefined`에 대응하는 래퍼 객체는 없다
 `null`, `undefined`에 대응하는 래퍼 객체는 없으며, 따라서 `null`, `undefined`에선 메서드와 프로퍼티, 프로토타입을 사용할 수 없다
 ```
 
-
+```ad-info
+title: [BigInt](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/BigInt), `Symbol`에 대응하는 래퍼객체도 존재한다
+```
 
 
 
