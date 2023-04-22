@@ -531,6 +531,14 @@ Object.prototype.toString.call(null);
 Object.prototype.toString.call(undefined);
 // [object Undefined]
 ```
+
+```ad-info
+title: `Function.prototype.call(thisArg)`
+
+`Function.prototype.call(thisArg)`는 `Object.prototype.toString()`의 `this`가 `thisArg`를 바라보도록 한다
+
+즉, 위 예제를 하나 보면 `Object.prototype.toString.call('')`에서 `toString`의 `this`는 `''`이다
+```
 ````
 
 ### Other built-in prototypes
