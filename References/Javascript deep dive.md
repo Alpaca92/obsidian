@@ -498,7 +498,40 @@ console.log(obj.toString === Object.prototype.toString); // true
 console.log(Object.prototype.__proto__); // null
 ```
 
+````ad-help
+title: `Object.prototype.toString`이 진짜로 하는 일은 뭘까?
 
+`Object.prototype.toString`은 인자로 들어온 값이 어떤 클래스 타입인지 감지해서 알려준다
+
+```js
+Object.prototype.toString.call('');
+// [object String]
+
+Object.prototype.toString.call(1);
+// [object Number]
+
+Object.prototype.toString.call(true);
+// [object Boolean]
+
+Object.prototype.toString.call(Symbol('symbol'));
+// [object Symbol]
+
+Object.prototype.toString.call(BigInt(1e10));
+// [object BigInt]
+
+Object.prototype.toString.call([]);
+// [object Array]
+
+Object.prototype.toString.call({});
+// [object Object]
+
+Object.prototype.toString.call(null);
+// [object Null]
+
+Object.prototype.toString.call(undefined);
+// [object Undefined]
+```
+````
 
 ### Other built-in prototypes
 [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Array), [Date](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date), [Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function)을 비롯한 내장 객체들 역시 프로토타입에 메서드를 저장해 놓는다
