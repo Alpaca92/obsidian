@@ -465,9 +465,8 @@ console.log(rabbit.constructor === Rabbit.prototype.constructor);
 ````
 
 ## Native prototypes
-[(작성중...)](https://javascript.info/native-prototypes)
-
-
+`prototype`프로퍼티는 자바스크립트 내부에서도 광범위하게 사용도니다
+모든 내장 생성자 함수에서 `prototype`프로퍼티를 사용한다는 것을 [[#F.prototype]]에서 알 수 있었다
 
 
 
