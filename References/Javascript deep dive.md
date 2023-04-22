@@ -611,12 +611,25 @@ console.log("라".repeat(3)); // 라라라
 
 ````
 
-
-
-
 ### Borrwing from prototypes
+개발을 하다보면 네이티브 프로토타입에 구현된 메서드를 빌려야 하는 경우가 종종 생긴다
+아래와 같이 유사 배열 객체를 만들고 여기에 `Array` 메서드를 복사할 수 도 있다
 
+```js
+const obj = {
+	0: "Hello ",
+	1: "world!",
+	length: 2,
+};
 
+obj.join = Array.prototype.join;
+
+console.log(obj.join(',')); // Hello, world!
+```
+
+내장 메서드 `join`의 내부 알고리즘은 제대로 된 인덱스가 있는지와 `length`프로퍼티가 있는지만을 확인하기 때문에 위와 같은 예시도 에러 없이 의도대로 동작한다
+
+메서드를 빌리지 않고 `obj.__proto__ = Array.prototype`과 같이 프로토타입 체인을 새롭게 설정할 수도 있지만 자바스크립트는 단일 상속만을 허용하기 때문에 이 방법을 사용하면`obj`가 더이상 `Object.prototype`의 메서드를 사용할 수 없다
 
 
 
