@@ -556,7 +556,19 @@ title: `null`, `undefined`에 대응하는 래퍼 객체는 없다
 ```
 
 ```ad-info
-title: [BigInt](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/BigInt), `Symbol`에 대응하는 래퍼객체도 존재한다
+title: [BigInt](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/BigInt), [Symbol](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol)에 대응하는 래퍼객체도 존재한다
+```
+
+### Changing native prototypes
+네이티브 프로토타입은 수정할 수 있다
+`String.prototype`에 메서드를 하나 추가하면 모든 문자열에 해당 메서드를 사용할 수 있다
+
+```js
+String.prototype.show  = function() {
+	console.log(this);
+};
+
+'123'.show(); // String { "123" }
 ```
 
 
@@ -564,9 +576,6 @@ title: [BigInt](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
 
 
 
-
-
-### Changing native prototypes
 
 ### Borrwing from prototypes
 
