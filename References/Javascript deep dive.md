@@ -531,7 +531,23 @@ console.log(Array.prototype.toString === Object.prototype.toString);
 
 개발자 콘솔 창에 `console.dir([1, 2, 3]);`을 입력해보자
 ![[Screenshot 2023-04-22 at 10.35.29.jpg]]
-여기서 빨간 박스가 `Array.prototype`
+여기서 빨간 박스가 `Array.prototype`, `Array.prototype.toString`을 의미하며,
+그 위의 프로토타입 체인에 파란박스로  `Ojbect.prototype`, `Object.prototype.toString`가 존재함을 확인할 수 있다
+
+```ad-attention
+title: 사진은 보기좋게 편집된 것으로 실제로는 각 prototype안에 더 많은 프로퍼티가 존재한다
+```
+
+### 
+
+
+
+
+
+
+
+
+
 
 # Class [ref](https://javascript.info/classes)
 ## Class basic syntax
