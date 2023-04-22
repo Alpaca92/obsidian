@@ -543,6 +543,18 @@ title: 사진은 보기좋게 편집된 것으로 실제로는 각 prototype안�
 그런데, 이런 원시 타입 값의 프로퍼티에 접근하려고 하면 내장 생성자 [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String), [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number), [Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)을 사용하는 임시 래퍼(wrapper) 객체가 생성된다
 임시 래퍼 객체는 이런 메서드를 제공하고 난 후 사라진다
 
+래퍼 객체는 보이지 않는 곳에서 만들어지는데 엔진에 의해 최적화가 이루어진다
+그런데 명세서엔 각 자료형에 해당하는 래퍼 객체의 메서드를 프로토타입 안에 구현해 놓고
+`String.prototype`, `Number.prototype`, `Boolean.prototype`을 사용해 쓰도록 규정한다
+
+```ad-warning
+title: `null`, `undefined`에 대응하는 래퍼 객체는 없다
+
+특수 값인 `null`, `undeifined`는 문자열과 숫자, 불린값과는 거리가 있다
+
+`null`, `undefined`에 대응하는 래퍼 객체는 없으며, 따라서 `null`, `undefined`에선 메서드와 프로퍼티, 프로토타입을 사용할 수 없다
+```
+
 
 
 
