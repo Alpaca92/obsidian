@@ -475,12 +475,31 @@ console.log(obj); // [object Object];
 ```
 
 `[object Object]`문자열을 생성하는 코드는 어디에 있을까? 아니 그보다 애초에 왜 `{}`가 아닌 `[object Object]`가 출력되었을까?
-이는 `obj.toString()`으로 동작된 결과이고 당연히 `toString()`은 프로토타입 체인에서 왔다
 
 `obj = new Object()`를 줄이면 `obj = {}`가 된다
-여기서 `Object`는 내장 객체 생성자 함수인데, 
+여기서 [`Object`는 내장 객체 생성자 함수](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/Object)인데, 이 생성자 함수의 `prototype`은 `toString`을 비롯해 다양한 메서드가 구현되어있는 거대한 객체를 참조한다
+![[Pasted image 20230422093906.png]]
+`new Object()`를 호출하거나 리터럴 문법 `{...}`을 사용해 객체를 만들 때, 새롭게 생성된 객체의 `[[Prototype]]`은 바로 앞 챕터에서 언급한 규칙에 따라 `Object.prototype`을 참조한다
+![[Pasted image 20230422094041.png]]
+따라서 `obj.toString()`을 호출하면 `Object.prototype`에서 해당 메서드를 가져오게 된다
 
+```js
+const obj = {};
 
+console.log(obj.__proto__ === Object.prototype); // true
+console.log(obj.toString === obj.__proto__.toString); // true
+console.log(obj.toString === Object.prototype.toString); // true
+```
+
+여기서 중요한 점은 `Object.prototype`은 프로토타입 최상단에 있는 객체기 때문에,
+`[[Prototype]]`이 존재하지 않는다는 점이다
+
+```js
+console.log(Object.prototype.__proto__); // null
+```
+
+### Other built-in prototypes
+[Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Array), 
 
 
 
