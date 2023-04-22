@@ -527,7 +527,7 @@ console.log(Array.prototype.toString === Object.prototype.toString);
 // false
 ```
 ![[Pasted image 20230422102323.png]]
-위 그림처럼
+위 그림에서 `Array.prototype.toString`이 `Object.prototype.toString`보다 체인상 가까우므로 `[1, 2, 3].toString()`의 `toString`은 `Array.prototype.toString`임을 알 수 있다
 
 
 # Class [ref](https://javascript.info/classes)
