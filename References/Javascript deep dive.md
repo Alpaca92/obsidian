@@ -498,6 +498,8 @@ console.log(obj.toString === Object.prototype.toString); // true
 console.log(Object.prototype.__proto__); // null
 ```
 
+
+
 ### Other built-in prototypes
 [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Array), [Date](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date), [Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function)을 비롯한 내장 객체들 역시 프로토타입에 메서드를 저장해 놓는다
 
@@ -631,19 +633,16 @@ console.log(obj.join(',')); // Hello, world!
 
 메서드를 빌리지 않고 `obj.__proto__ = Array.prototype`과 같이 프로토타입 체인을 새롭게 설정할 수도 있지만 자바스크립트는 단일 상속만을 허용하기 때문에 이 방법을 사용하면`obj`가 더이상 `Object.prototype`의 메서드를 사용할 수 없다
 
+## Prototype methods, objects without __proto__
+[(작성중...)](https://ko.javascript.info/prototype-methods)
 
+### Brief history
 
-
-
-
-
-
+### "Very plain" objects
 
 # Class [ref](https://javascript.info/classes)
 ## Class basic syntax
 [(작성중...)](https://ko.javascript.info/class)
-
-
 
 #### References
 - [ ] [Modern javascript tutorial](https://javascript.info/)
