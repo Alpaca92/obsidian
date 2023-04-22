@@ -549,17 +549,17 @@ title: 사진은 보기좋게 편집된 것으로 실제로는 각 prototype안�
 그런데 명세서엔 각 자료형에 해당하는 래퍼 객체의 메서드를 프로토타입 안에 구현해 놓고
 `String.prototype`, `Number.prototype`, `Boolean.prototype`을 사용해 쓰도록 규정한다
 
-```ad-warning
+````ad-warning
 title: `null`, `undefined`에 대응하는 래퍼 객체는 없다
 
 특수 값인 `null`, `undeifined`는 문자열과 숫자, 불린값과는 거리가 있다
 
 `null`, `undefined`에 대응하는 래퍼 객체는 없으며, 따라서 `null`, `undefined`에선 메서드와 프로퍼티, 프로토타입을 사용할 수 없다
-```
 
 ```ad-info
 title: [BigInt](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/BigInt), [Symbol](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol)에 대응하는 래퍼객체도 존재한다
 ```
+````
 
 ### Changing native prototypes
 네이티브 프로토타입은 수정할 수 있다
