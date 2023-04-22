@@ -477,7 +477,7 @@ console.log(obj); // [object Object];
 `[object Object]`문자열을 생성하는 코드는 어디에 있을까? 아니 그보다 애초에 왜 `{}`가 아닌 `[object Object]`가 출력되었을까?
 
 `obj = new Object()`를 줄이면 `obj = {}`가 된다
-여기서 [`Object`는 내장 객체 생성자 함수](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/Object)인데, 이 생성자 함수의 `prototype`은 `toString`을 비롯해 다양한 메서드가 구현되어있는 거대한 객체를 참조한다
+여기서 [Object는 내장 객체 생성자 함수](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)인데, 이 생성자 함수의 `prototype`은 `toString`을 비롯해 다양한 메서드가 구현되어있는 거대한 객체를 참조한다
 ![[Pasted image 20230422093906.png]]
 `new Object()`를 호출하거나 리터럴 문법 `{...}`을 사용해 객체를 만들 때, 새롭게 생성된 객체의 `[[Prototype]]`은 바로 앞 챕터에서 언급한 규칙에 따라 `Object.prototype`을 참조한다
 ![[Pasted image 20230422094041.png]]
@@ -499,7 +499,14 @@ console.log(Object.prototype.__proto__); // null
 ```
 
 ### Other built-in prototypes
-[Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Array), 
+[Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Array), [Date](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date), [Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function)을 비롯한 내장 객체들 역시 프로토타입에 메서드를 저장해 놓는다
+
+배열 `[1, 2, 3]`을 만들면 `new Array(1, 2, 3)`의 디폴트 생성자가 내부에서 동작하여
+`Array.prototype`이 배열 `[1, 2, 3]`의 프로토타입이 되고
+개발자는 `Array.prototype`을 통해 배열 메서드를 사용할 수 있게 된다
+
+명세서에서는 "모든 내장 프로토타입의 상속 트리 꼭대기엔 `Object.prototype`이 있어야 한다"고 규정하고 있다
+
 
 
 
