@@ -520,7 +520,14 @@ console.log(arr.__proto__.__proto__ === Object.prototype); // true
 console.log(arr.__proto__.__proto__.__proto__); // null
 ```
 
+체인 상의 프로토타입엔 중복되는 메서드들이 있을 수 있다
 
+```js
+console.log(Array.prototype.toString === Object.prototype.toString);
+// false
+```
+![[Pasted image 20230422102323.png]]
+위 그림처럼
 
 
 # Class [ref](https://javascript.info/classes)
