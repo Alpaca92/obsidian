@@ -501,7 +501,7 @@ console.log(Object.prototype.__proto__); // null
 ### Other built-in prototypes
 [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Array), [Date](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date), [Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function)을 비롯한 내장 객체들 역시 프로토타입에 메서드를 저장해 놓는다
 
-배열 `[1, 2, 3]`을 만들면 `new Array(1, 2, 3)`의 디폴트 생성자가 내부에서 동작하여
+배열 `[1, 2, 3]`을 만들면 `new Array()`의 디폴트 생성자가 내부에서 동작하여
 `Array.prototype`이 배열 `[1, 2, 3]`의 프로토타입이 되고
 개발자는 `Array.prototype`을 통해 배열 메서드를 사용할 수 있게 된다
 
@@ -565,10 +565,10 @@ title: [BigInt](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
 
 ```js
 String.prototype.show  = function() {
-	console.log(this);
+	console.log(this.toString());
 };
 
-'123'.show(); // String { "123" }
+'123'.show(); // 123
 ```
 
 
