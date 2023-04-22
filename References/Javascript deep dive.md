@@ -505,7 +505,9 @@ console.log(Object.prototype.__proto__); // null
 `Array.prototype`이 배열 `[1, 2, 3]`의 프로토타입이 되고
 개발자는 `Array.prototype`을 통해 배열 메서드를 사용할 수 있게 된다
 
-명세서에서는 "모든 내장 프로토타입의 상속 트리 꼭대기엔 `Object.prototype`이 있어야 한다"고 규정하고 있다
+```ad-quote
+title: [명세서](https://www.ecma-international.org/publications-and-standards/standards/ecma-262/)에서는 `"모든 내장 프로토타입의 상속 트리 꼭대기엔 Object.prototype이 있어야 한다"`고 규정한다
+```
 
 
 
