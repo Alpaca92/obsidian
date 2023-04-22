@@ -509,6 +509,16 @@ console.log(Object.prototype.__proto__); // null
 title: [명세서](https://www.ecma-international.org/publications-and-standards/standards/ecma-262/)에서는 `"모든 내장 프로토타입의 상속 트리 꼭대기엔 Object.prototype이 있어야 한다"`고 규정한다
 ```
 
+![[Pasted image 20230422100657.png]]
+위의 그림을 코드로 한번 확인해 보도록 하자
+
+```js
+const arr = [1, 2, 3];
+
+console.log(arr.__proto__ === Array.prototype); // true
+console.log(arr.__proto__.__proto__ === Object.prototype); // true
+console.log(arr.__proto__.__proto__.__proto__); // null
+```
 
 
 
