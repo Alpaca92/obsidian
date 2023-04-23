@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "References/Javascript deep dive.md",
+                "file": "References/Tailwind fundamentals.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "References/Javascript deep dive.md",
+                "file": "References/Tailwind fundamentals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "References/Javascript deep dive.md",
+                "file": "References/Tailwind fundamentals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "References/Javascript deep dive.md"
+                "file": "References/Tailwind fundamentals.md"
               }
             }
           },
@@ -169,10 +169,15 @@
   },
   "active": "83f440599ab89185",
   "lastOpenFiles": [
-    "References/assets/images/Screenshot 2023-04-22 at 10.35.29.jpg",
-    "Pasted image 20230422102323.png",
-    "References/assets/images/Pasted image 20230422100657.png",
     "References/Javascript deep dive.md",
+    "References/assets/images/Pasted image 20230422102323.png",
+    "References/Tailwind fundamentals.md",
+    "References/Typescript fundamentals.md",
+    "References/Nextjs fundamentals.md",
+    "References/Syntax of Dart.md",
+    "References/Difference between children and childNodes.md",
+    "References/assets/images/Screenshot 2023-04-22 at 10.35.29.jpg",
+    "References/assets/images/Pasted image 20230422100657.png",
     "References/assets/images/Pasted image 20230422094041.png",
     "References/assets/images/Pasted image 20230422093906.png",
     "References/assets/images/Pasted image 20230421045944.png",
@@ -180,15 +185,10 @@
     "References/assets/images/Pasted image 20230421044330.png",
     "References/assets/images/Pasted image 20230419214436.png",
     "References/assets/images/Pasted image 20230421041646.png",
-    "References/assets/images/Pasted image 20230420052235.png",
     "References/Nomadcoders challenges/Typescript.md",
-    "References/Nextjs fundamentals.md",
     "References/assets/images",
     "References/assets",
     "README.md",
-    "References/Typescript fundamentals.md",
-    "References/Difference between children and childNodes.md",
-    "References/Syntax of Dart.md",
     "Difference.md",
     "References/assets/files/JS-DOM-Traversal-Cheat Sheet.pdf",
     "References/files/JS-DOM-Traversal-Cheat-Sheet.pdf.md",
