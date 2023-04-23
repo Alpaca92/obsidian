@@ -35,7 +35,8 @@ $ npm install -D tailwindcss postcss autoprefixer
 $ npx tailwindcss init -p # -p 옵션을 사용하여 postcss.config.js 파일 생성
 
 # optionals
-$ npm install -D prettier prettier-plugin-tailwindcss # class 자동정렬 프리티어 플러그인
+$ npm install -D prettier prettier-plugin-tailwindcss
+# class 자동정렬 프리티어 플러그인
 ```
 
 클래스 정렬 기준은 [여기](https://tailwindcss.com/blog/automatic-class-sorting-with-prettier#how-classes-are-sorted)를 참고하면 되며,
@@ -64,7 +65,6 @@ module.exports = {
 @tailwind components;
 @tailwind utilities;
 ```
-
 
 
 
