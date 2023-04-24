@@ -20,7 +20,7 @@ and `rotate-90` that can be composed to build any design, directly in your mar
 
 하지만 `tailwind`는 매우 많은 클래스들을 조합하여 자신이 스타일을 정할 수 있고, 유틸리티 클래스에 원하는 스타일이 없다면 스스로 커스텀하여 클래스를 만들 수도 있다
 
-# Setup
+# Setup [ref](https://tailwindcss.com/docs/installation)
 만약 `next.js + tailwind` 조합을 사용하길 원한다면 [CNA](https://nextjs.org/docs/api-reference/create-next-app)가 셋업을 지원하는 덕분에 과정이 매우 간단해진다
 
 ```bash
@@ -66,7 +66,8 @@ module.exports = {
 @tailwind utilities;
 ```
 
-# Modifier
+# JIT(Just in time) compiler [ref](https://tailwindcss.com/docs/upgrade-guide#migrating-to-the-jit-engine)
+
 
 
 
