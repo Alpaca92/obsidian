@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "ddf61895ac38c520",
+        "id": "35bcb80d426d10cb",
         "type": "tabs",
         "children": [
           {
-            "id": "83f440599ab89185",
+            "id": "b234a389ccc42d38",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "References/Tailwind fundamentals.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -69,8 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "7e97b3d5d5061370",
@@ -86,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "References/Tailwind fundamentals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "References/Tailwind fundamentals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "References/Tailwind fundamentals.md"
-              }
+              "state": {}
             }
           },
           {
@@ -167,11 +158,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "83f440599ab89185",
+  "active": "b234a389ccc42d38",
   "lastOpenFiles": [
     "References/Javascript deep dive.md",
-    "References/assets/images/Pasted image 20230422102323.png",
     "References/Tailwind fundamentals.md",
+    "References/assets/images/Pasted image 20230422102323.png",
     "References/Typescript fundamentals.md",
     "References/Nextjs fundamentals.md",
     "References/Syntax of Dart.md",

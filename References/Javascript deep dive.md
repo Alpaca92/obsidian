@@ -674,8 +674,8 @@ console.log(obj.join(',')); // Hello, world!
 
 메서드를 빌리지 않고 `obj.__proto__ = Array.prototype`과 같이 프로토타입 체인을 새롭게 설정할 수도 있지만 자바스크립트는 단일 상속만을 허용하기 때문에 이 방법을 사용하면`obj`가 더이상 `Object.prototype`의 메서드를 사용할 수 없다
 
-## Prototype methods, objects without __proto__
-[(작성중...)](https://ko.javascript.info/prototype-methods)
+## Prototype methods, objects without \_\_proto__
+
 
 ### Brief history
 
