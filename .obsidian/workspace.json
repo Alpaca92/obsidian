@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "35bcb80d426d10cb",
+        "id": "939da6c9747a2e2f",
         "type": "tabs",
         "children": [
           {
-            "id": "b234a389ccc42d38",
+            "id": "e8f7bd2ef481879c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "References/Tailwind fundamentals.md",
+                "file": "References/Nomadcoders challenges/Next.js.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "References/Tailwind fundamentals.md",
+                "file": "References/Nomadcoders challenges/Next.js.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "References/Tailwind fundamentals.md",
+                "file": "References/Nomadcoders challenges/Next.js.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "References/Tailwind fundamentals.md"
+                "file": "References/Nomadcoders challenges/Next.js.md"
               }
             }
           },
@@ -167,14 +167,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b234a389ccc42d38",
+  "active": "e8f7bd2ef481879c",
   "lastOpenFiles": [
-    "References/Javascript deep dive.md",
-    "References/Tailwind fundamentals.md",
-    "References/assets/images/Pasted image 20230422102323.png",
+    "References/Nomadcoders challenges/Typescript.md",
+    "References/Nomadcoders challenges/Next.js.md",
+    "References/Syntax of Dart.md",
+    "README.md",
     "References/Typescript fundamentals.md",
     "References/Nextjs fundamentals.md",
-    "References/Syntax of Dart.md",
+    "References/Tailwind fundamentals.md",
+    "References/Javascript deep dive.md",
+    "References/assets/images/Pasted image 20230422102323.png",
     "References/Difference between children and childNodes.md",
     "References/assets/images/Screenshot 2023-04-22 at 10.35.29.jpg",
     "References/assets/images/Pasted image 20230422100657.png",
@@ -185,10 +188,8 @@
     "References/assets/images/Pasted image 20230421044330.png",
     "References/assets/images/Pasted image 20230419214436.png",
     "References/assets/images/Pasted image 20230421041646.png",
-    "References/Nomadcoders challenges/Typescript.md",
     "References/assets/images",
     "References/assets",
-    "README.md",
     "Difference.md",
     "References/assets/files/JS-DOM-Traversal-Cheat Sheet.pdf",
     "References/files/JS-DOM-Traversal-Cheat-Sheet.pdf.md",
@@ -206,7 +207,6 @@
     "Templates/default.md",
     "Named constructors.md",
     "References/Nomadcoders/Untitled.md",
-    "Untitled.md",
     "Etc..md",
     "Templates",
     "연말정산.md",

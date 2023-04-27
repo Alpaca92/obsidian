@@ -1,6 +1,6 @@
 ---
 created: 2023-04-07 16:36
-category: Typescript
+category: typescript
 type: fundamentals
 inclusion: true
 ---
