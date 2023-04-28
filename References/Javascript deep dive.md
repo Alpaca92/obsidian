@@ -6,12 +6,18 @@ inclusion: true
 ---
 
 # Contents
-1. [[#Prototypes, inheritance]]
+## The Javascript language
+1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. [[#Prototypes, inheritance]]
    1. [[#Prototypal inheritance]]
    2. [[#F.prototype]]
    3. [[#Native prototypes]]
    4. [[#Prototype methods, objects without _ _proto__]]
-
 
 # Prototypes, inheritance
 ## Prototypal inheritance
@@ -744,17 +750,7 @@ title: 프로퍼티 설명자 객체
 - 갑자기 2012년, 명세서에 `Object.create`가 추가되었는데, 이 당시에는 프로토타입을 얻거나 설정하는 것이 불가능하였고, 때문에 브라우저에서 비표준 접근자인 `__proto__`가 구현되었다
 - 이후 2015년에 `__proto__`를 사용하는 사람이 많아 사실상 표준이 되었고, 정식적인 표준 메서드인 `Object.getPrototypeOf`, `Object.setPrototypeOf`가 추가되었다
 
-### "Very plain" objects
-
-
-
-
-
-
-
-
-
-# Class [ref](https://javascript.info/classes)
+# Class
 ## Class basic syntax
 [(작성중...)](https://ko.javascript.info/class)
 
