@@ -685,9 +685,51 @@ console.log(obj.join(',')); // Hello, world!
 ## Prototype methods, objects without \_\_proto__
 `__proto__`로 개발하는 것은 다소 예전 문법이기 때문에 사용하지 않는 것을 추천한다
 대신 아래와 같은 모던한 메서드들을 사용할 수 있다
-- [Object.create(proto, propertiesObject)](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Object/create)
+
+- [Object.create(proto, propertiesObject)](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Object/create) 
+  `[[Prototype]]`이 `proto`를 참조하는 빈 객체를 만들며, 프로퍼티 객체를 추가로 넘길 수 있다
 - [Object.getPrototypeOf(obj)](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Object/getPrototypeOf)
-- [Object.setPrototypeOf(obj, prototype)]()
+  `obj`의 `[[Prototype]]`을 반환한다
+- [Object.setPrototypeOf(obj, prototype)](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Object/setPrototypeOf)
+  `obj`의 `[[Prototype]]`이 `proto`가 되도록 설정한다
+
+```js
+const animal = {
+	eats: true
+};
+
+// const rabbit.__proto__ = animal;
+const rabbit = Object.create(animal);
+
+console.log(rabbit.eats); // true
+
+// console.log(rabbit.__proto__ === animal);
+console.log(Object.getPrototypeOf(rabbit) === animal); // true
+
+// rabbit.__proto__ = {};
+Object.setPrototypeOf(rabbit, {});
+```
+
+`Object.create`를 사용하여 프로퍼티 객체를 추가해 보도록 하자
+
+```js
+onst animal = {
+	eats: true
+};
+
+/*
+const rabbit = {
+	jumps: true,
+	__proto__: animal;
+};
+*/
+const rabbit = Object.create(animal, {
+	jumps: {
+	}
+});
+```
+
+
 
 ### Brief history
 
