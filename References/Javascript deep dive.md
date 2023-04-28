@@ -687,7 +687,7 @@ console.log(obj.join(',')); // Hello, world!
 대신 아래와 같은 모던한 메서드들을 사용할 수 있다
 
 - [Object.create(proto, propertiesObject)](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Object/create) 
-  `[[Prototype]]`이 `proto`를 참조하는 빈 객체를 만들며, 설명자 객체를 추가로 넘길 수 있다
+  `[[Prototype]]`이 `proto`를 참조하는 빈 객체를 만들며, 프로퍼티 설명자 객체를 추가로 넘길 수 있다
 - [Object.getPrototypeOf(obj)](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Object/getPrototypeOf)
   `obj`의 `[[Prototype]]`을 반환한다
 - [Object.setPrototypeOf(obj, prototype)](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Object/setPrototypeOf)
@@ -710,7 +710,7 @@ console.log(Object.getPrototypeOf(rabbit) === animal); // true
 Object.setPrototypeOf(rabbit, {});
 ```
 
-`Object.create`를 사용하여 프로퍼티 객체를 추가해 보도록 하자
+`Object.create`를 사용하여 프로퍼티 설명자 객체를 추가해 보도록 하자
 
 ```js
 onst animal = {
@@ -729,14 +729,30 @@ const rabbit = Object.create(animal, {
 	}
 });
 ```
+
 ```ad-attention
-title: 
+title: 프로퍼티 설명자 객체
+
+`value`뿐만 아니라 `writable`, `enumerable` 등과 같은 값을 지정할 수 있는 객체
 ```
 
-
 ### Brief history
+`[[Prototype]]`을 다루는 방법은 다양하다
+이는 역사적인 이유가 있는데,
+
+- 생성자 함수의 `prototype`프로퍼티는 아주 오래전부터 사용되고 있었다
+- 갑자기 2012년, 명세서에 `Object.create`가 추가되었는데, 이 당시에는 프로토타입을 얻거나 설정하는 것이 불가능하였고, 때문에 브라우저에서 비표준 접근자인 `__proto__`가 구현되었다
+- 이후 2015년에 `__proto__`를 사용하는 사람이 많아 사실상 표준이 되었고, 정식적인 표준 메서드인 `Object.getPrototypeOf`, `Object.setPrototypeOf`가 추가되었다
 
 ### "Very plain" objects
+
+
+
+
+
+
+
+
 
 # Class [ref](https://javascript.info/classes)
 ## Class basic syntax
