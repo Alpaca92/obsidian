@@ -11,8 +11,7 @@ inclusion: false
 `무한 스크롤(infinite scroll)`을 구현하면 어떨까하는 생각이 들었다
 react-query를 사용하려 했으나 이 기능은 일단 페이지가 나눠져있다는 가정이 들어가 있기 때문에 썩 내키지 않아, 대신 [react-infinite-scroll-component](https://github.com/ankeetmaini/react-infinite-scroll-component#readme)를 사용하기로 했다
 
-
-
+# 
 
 
 
