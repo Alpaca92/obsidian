@@ -687,7 +687,7 @@ console.log(obj.join(',')); // Hello, world!
 대신 아래와 같은 모던한 메서드들을 사용할 수 있다
 
 - [Object.create(proto, propertiesObject)](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Object/create) 
-  `[[Prototype]]`이 `proto`를 참조하는 빈 객체를 만들며, 프로퍼티 객체를 추가로 넘길 수 있다
+  `[[Prototype]]`이 `proto`를 참조하는 빈 객체를 만들며, 설명자 객체를 추가로 넘길 수 있다
 - [Object.getPrototypeOf(obj)](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Object/getPrototypeOf)
   `obj`의 `[[Prototype]]`을 반환한다
 - [Object.setPrototypeOf(obj, prototype)](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Object/setPrototypeOf)
@@ -729,7 +729,9 @@ const rabbit = Object.create(animal, {
 	}
 });
 ```
-
+```ad-attention
+title: 
+```
 
 
 ### Brief history
