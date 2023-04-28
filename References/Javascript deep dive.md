@@ -5,6 +5,10 @@ type: fundamentals
 inclusion: true
 ---
 
+# Contents
+[[#Prototypes, inheritance [ref](https://javascript.info/prototypes)]]
+
+
 # Prototypes, inheritance [ref](https://javascript.info/prototypes)
 ## Prototypal inheritance
 개발을 하다보면 기존에 있는 기능을 가져와 확장해야 하는 경우가 많다

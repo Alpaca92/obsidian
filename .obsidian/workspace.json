@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "References/Nomadcoders challenges/Next.js.md",
+                "file": "References/Javascript deep dive.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "References/Nomadcoders challenges/Next.js.md",
+                "file": "References/Javascript deep dive.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "References/Nomadcoders challenges/Next.js.md",
+                "file": "References/Javascript deep dive.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "References/Nomadcoders challenges/Next.js.md"
+                "file": "References/Javascript deep dive.md"
               }
             }
           },
@@ -169,8 +169,8 @@
   },
   "active": "e8f7bd2ef481879c",
   "lastOpenFiles": [
-    "References/Nomadcoders challenges/Typescript.md",
     "References/Nomadcoders challenges/Next.js.md",
+    "References/Nomadcoders challenges/Typescript.md",
     "References/Syntax of Dart.md",
     "README.md",
     "References/Typescript fundamentals.md",
