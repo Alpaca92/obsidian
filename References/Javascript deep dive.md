@@ -6,10 +6,14 @@ inclusion: true
 ---
 
 # Contents
-[[#Prototypes, inheritance [ref](https://javascript.info/prototypes)]]
+1. [[#Prototypes, inheritance]]
+   1. [[#Prototypal inheritance]]
+   2. [[#F.prototype]]
+   3. [[#Native prototypes]]
+   4. [[#Prototype methods, objects without _ _proto__]]
 
 
-# Prototypes, inheritance [ref](https://javascript.info/prototypes)
+# Prototypes, inheritance
 ## Prototypal inheritance
 개발을 하다보면 기존에 있는 기능을 가져와 확장해야 하는 경우가 많다
 예를 들어 `user`라는 객체가 있는데, 이 객체와 상당히 유사하지만 약간의 차이가 있는 `admin`과 `guest`객체를 만들어야 한다고 가정해보자
@@ -679,7 +683,11 @@ console.log(obj.join(',')); // Hello, world!
 메서드를 빌리지 않고 `obj.__proto__ = Array.prototype`과 같이 프로토타입 체인을 새롭게 설정할 수도 있지만 자바스크립트는 단일 상속만을 허용하기 때문에 이 방법을 사용하면`obj`가 더이상 `Object.prototype`의 메서드를 사용할 수 없다
 
 ## Prototype methods, objects without \_\_proto__
-
+`__proto__`로 개발하는 것은 다소 예전 문법이기 때문에 사용하지 않는 것을 추천한다
+대신 아래와 같은 모던한 메서드들을 사용할 수 있다
+- [Object.create(proto, propertiesObject)](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Object/create)
+- [Object.getPrototypeOf(obj)](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Object/getPrototypeOf)
+- [Object.setPrototypeOf(obj, prototype)]()
 
 ### Brief history
 
