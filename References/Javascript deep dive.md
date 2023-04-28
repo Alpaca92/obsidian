@@ -725,6 +725,7 @@ const rabbit = {
 */
 const rabbit = Object.create(animal, {
 	jumps: {
+		value: true
 	}
 });
 ```
