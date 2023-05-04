@@ -18,7 +18,16 @@ title: Prisma가 지원하는 언어 및 DB
 지원하는 데이터베이스: `PostgreSQL`, `MySQL`, `SQLite`, `SQL Server`, `MongoDB`, `CockroachDB`
 ```
 
-# Installation
+# Setup
+먼저, vscode를 사용하고 있다면 [Prisma extension](https://marketplace.visualstudio.com/items?itemName=Prisma.prisma)을 설치해주도록 하자
+이 익스텐션은 린팅, 코드 자동완성, 포멧팅 등을 지원해주기 때문에 생산성 향상에 많은 도움을 준다
+
+이제 프리즈마를 설치해보도록 하자
+
+```bash
+$ npm i prisma -D
+$ npx prisma init --datasource-provider mysql
+```
 
 
 
