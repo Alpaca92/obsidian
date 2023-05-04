@@ -34,6 +34,10 @@ $ npx prisma init --datasource-provider mysql
 1. `.env`에 `DATABASE_URL`을 작성
 2. 
 
+나는 [PlanetScale](https://planetscale.com/)을 사용할 거기 때문에 그에 맞게 `DATABASE_URL`을 설정해주도록 하겠다
+
+
+
 이제 DB 스키마를 작성해보도록 하자
 
 ```prisma
