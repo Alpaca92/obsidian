@@ -32,9 +32,14 @@ $ npx prisma init --datasource-provider mysql
 위와 같이 진행 했다면 터미널에 앞으로 해야될 셋업들이 출력될텐데,
 
 1. `.env`에 `DATABASE_URL`을 작성
-2. 
+2. Run prisma db pull to turn your database schema into a Prisma schema.
+3. Run prisma generate to generate the Prisma Client. You can then start querying your database.
 
 나는 [PlanetScale](https://planetscale.com/)을 사용할 거기 때문에 그에 맞게 `DATABASE_URL`을 설정해주도록 하겠다
+
+```ad-quote
+title: PlanetScale은 MySQL-compatible serverless database platform으로 서버 유지보수를 위한 수고를 덜어준다
+```
 
 
 
