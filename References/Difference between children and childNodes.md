@@ -1,7 +1,7 @@
 ---
 created: 2023-04-13 06:31
-category: common sense
-type: javascript
+category: javascript
+type: fundamentals
 inclusion: true
 ---
 

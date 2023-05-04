@@ -1,7 +1,7 @@
 ---
 created: 2023-04-07 16:36
-category: syntax
-type: typescript
+category: typescript
+type: syntax
 inclusion: true
 ---
 

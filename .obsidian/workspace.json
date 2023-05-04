@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "References/Planetscale.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "References/Planetscale.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "References/Planetscale.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "References/Planetscale.md"
               }
             }
           },
@@ -182,15 +182,15 @@
   },
   "active": "6a32746ba938f6f9",
   "lastOpenFiles": [
-    "References/Typescript fundamentals.md",
     "README.md",
-    "References/Difference between children and childNodes.md",
-    "References/Prisma fundamentals.md",
-    "References/Nextjs fundamentals.md",
-    "References/Syntax of Dart.md",
-    "References/Planetscale.md",
-    "References/Tailwind fundamentals.md",
     "References/Javascript deep dive.md",
+    "References/Tailwind fundamentals.md",
+    "References/Difference between children and childNodes.md",
+    "References/Nextjs fundamentals.md",
+    "References/Typescript fundamentals.md",
+    "References/Syntax of Dart.md",
+    "References/Prisma fundamentals.md",
+    "References/Planetscale.md",
     "References/Nomadcoders challenges/Next.js.md",
     "References/Nomadcoders challenges/Typescript.md",
     "References/assets/images/Pasted image 20230422102323.png",
