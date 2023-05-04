@@ -1,7 +1,7 @@
 ---
 created: 2023-04-13 06:31
-category: javascript
-type: tip
+category: common sense
+type: javascript
 inclusion: true
 ---
 

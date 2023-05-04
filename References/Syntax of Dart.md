@@ -1,7 +1,7 @@
 ---
 created: 2023-04-03 13:04
-category: dart
-type: fundamentals
+category: language
+type: dart
 inclusion: true
 ---
 

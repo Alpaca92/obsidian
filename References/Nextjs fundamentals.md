@@ -1,7 +1,7 @@
 ---
 created: 2023-04-11 14:19
-category: nextjs
-type: fundamentals
+category: framework
+type: nextjs
 inclusion: true
 ---
 

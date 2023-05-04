@@ -41,21 +41,7 @@ $ npx prisma init --datasource-provider mysql
 title: PlanetScale은 MySQL-compatible serverless database platform으로 서버 유지보수를 위한 수고를 덜어준다
 ```
 
-
-
-이제 DB 스키마를 작성해보도록 하자
-
-```prisma
-model User {
-  id         Int      @id @default(autoincrement())
-  phone      Int?     @unique
-  email      String?  @unique
-  name       String
-  avatar     String?
-  createdAt  DateTime @default(now())
-  updateedAt DateTime @updatedAt
-}
-```
+## PlanetScale Setup
 
 
 
