@@ -115,4 +115,3 @@ export default function Seo({ title }) {
 - [ ] [CSR vs SSR 특징 및 차이](https://hahahoho5915.tistory.com/52)
 - [ ] [Next.js의 렌더링 과정(Hydrate) 알아보기](https://www.howdy-mj.me/next/hydrate)
 - [ ] [Warning: \<title> problem: A title element received an array with more than 1 element as children](https://github.com/vercel/next.js/discussions/38256#discussioncomment-3070196)
-- [ ] 

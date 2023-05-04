@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "939da6c9747a2e2f",
+        "id": "9442b6be8bb98950",
         "type": "tabs",
         "children": [
           {
-            "id": "e8f7bd2ef481879c",
+            "id": "49aad1b18b71915c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "References/Javascript deep dive.md",
+                "file": "References/Prisma fundamentals.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "References/Javascript deep dive.md",
+                "file": "References/Prisma fundamentals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "References/Javascript deep dive.md",
+                "file": "References/Prisma fundamentals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "References/Javascript deep dive.md"
+                "file": "References/Prisma fundamentals.md"
               }
             }
           },
@@ -167,16 +167,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "e8f7bd2ef481879c",
+  "active": "49aad1b18b71915c",
   "lastOpenFiles": [
-    "References/Nomadcoders challenges/Next.js.md",
-    "References/Nomadcoders challenges/Typescript.md",
+    "References/Tailwind fundamentals.md",
+    "References/Prisma fundamentals.md",
     "References/Syntax of Dart.md",
     "README.md",
-    "References/Typescript fundamentals.md",
     "References/Nextjs fundamentals.md",
-    "References/Tailwind fundamentals.md",
     "References/Javascript deep dive.md",
+    "References/Nomadcoders challenges/Next.js.md",
+    "References/Nomadcoders challenges/Typescript.md",
+    "References/Typescript fundamentals.md",
     "References/assets/images/Pasted image 20230422102323.png",
     "References/Difference between children and childNodes.md",
     "References/assets/images/Screenshot 2023-04-22 at 10.35.29.jpg",
