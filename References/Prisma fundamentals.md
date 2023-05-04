@@ -29,8 +29,24 @@ $ npm i prisma -D
 $ npx prisma init --datasource-provider mysql
 ```
 
+위와 같이 진행 했다면 터미널에 앞으로 해야될 셋업들이 출력될텐데,
 
+1. `.env`에 `DATABASE_URL`을 작성
+2. 
 
+이제 DB 스키마를 작성해보도록 하자
+
+```prisma
+model User {
+  id         Int      @id @default(autoincrement())
+  phone      Int?     @unique
+  email      String?  @unique
+  name       String
+  avatar     String?
+  createdAt  DateTime @default(now())
+  updateedAt DateTime @updatedAt
+}
+```
 
 
 
