@@ -35,15 +35,13 @@ $ npx prisma init --datasource-provider mysql
 2. Run prisma db pull to turn your database schema into a Prisma schema.
 3. Run prisma generate to generate the Prisma Client. You can then start querying your database.
 
-나는 [PlanetScale](https://planetscale.com/)을 사용할 거기 때문에 그에 맞게 `DATABASE_URL`을 설정해주도록 하겠다
+나는 [Planetscale](https://planetscale.com/)을 사용할 거기 때문에 그에 맞게 `DATABASE_URL`을 설정해주도록 하겠다
 
-```ad-quote
-title: PlanetScale은 MySQL-compatible serverless database platform으로 서버 유지보수를 위한 수고를 덜어준다
+```ad-info
+title: Planetscale setup에 대해서는[[Planetscale | 여기]]를 참고하면 된다
 ```
 
-## PlanetScale Setup
-
-
+
 
 #### References
 - [ ] [Prisma.io](https://www.prisma.io/)

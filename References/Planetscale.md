@@ -5,8 +5,9 @@ type: fundamentals
 inclusion: true
 ---
 
-`PlanetScale`은 MySQL-compatible serverless database platform
-즉, 스케일링 등의 서버 유지보수를 자동으로 해주는 플랫폼이다
+```ad-quote
+title: PlanetScale은 MySQL-compatible serverless database platform <br /> 즉, 스케일링 등의 서버 유지보수를 자동으로 해주는 플랫폼이다
+```
 
 백엔드 지식이 매우 부족한 나에게 있어 위 플랫폼은 매우 좋은 DX를 선사해주었다
 
