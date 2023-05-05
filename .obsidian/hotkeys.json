@@ -35,5 +35,14 @@
       ],
       "key": "ArrowRight"
     }
+  ],
+  "obsidian-footnotes:insert-autonumbered-footnote": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "0"
+    }
   ]
 }
