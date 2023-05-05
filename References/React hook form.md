@@ -21,25 +21,55 @@ $ npm i react-hook-form
 ```jsx
 import { useState } from "react";
 
-export default functino Forms() {
-	const [username, setUsername] = useState("");
-	const [email, setEmail] = useState("");
-	const [password, setPassword] = useState("");
+export default function Forms() {
+  const [username, setUsername] = useState("");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
 
-	const onChange = (event) => {
-		const {
-			currentTarget: { value },
-		} = event;
+  const onChange = (event) => {
+    const {
+      currentTarget: { value },
+      target: { placeholder }
+    } = event;
 
-	}
+    switch (placeholder) {
+      case "username":
+        setUsername(value);
+        break;
+      case "email":
+        setEmail(value);
+        break;
+      case "password":
+        setPassword(value);
+        break;
+      default:
+        break;
+    }
+  };
 
-	return (
-		<form>
-			<input value={username} type="text" placeholder="username" />
-			<input value={email} type="email" placeholder="email" />
-			<input value={password} type="password" placeholder="password" />
-		</form>
-	);
+  return (
+    <form>
+      <input
+        onChange={onChange}
+        value={username}
+        type="text"
+        placeholder="username"
+      />
+      <input
+        onChange={onChange}
+        value={email}
+        type="email"
+        placeholder="email"
+      />
+      <input
+        onChange={onChange}
+        value={password}
+        type="password"
+        placeholder="password"
+      />
+      <input type="submit" value="create Accont" />
+    </form>
+  );
 }
 ```
 
