@@ -29,11 +29,7 @@ $ npm i prisma -D
 $ npx prisma init --datasource-provider mysql
 ```
 
-위와 같이 진행 했다면 터미널에 앞으로 해야될 셋업들이 출력될텐데,
-
-1. `.env`에 `DATABASE_URL`을 작성
-2. Run prisma db pull to turn your database schema into a Prisma schema.
-3. Run prisma generate to generate the Prisma Client. You can then start querying your database.
+위와 같이 진행 했다면 터미널에 앞으로 해야될 셋업들이 출력된다
 
 나는 [Planetscale](https://planetscale.com/)을 사용할 거기 때문에 그에 맞게 `DATABASE_URL`을 설정해주도록 하겠다
 
@@ -41,8 +37,33 @@ $ npx prisma init --datasource-provider mysql
 title: Planetscale setup에 대해서는[[Planetscale | 여기]]를 참고하면 된다
 ```
 
-
+그리고 planetscale은 "MySQL-compatible db platform"이기 때문에 아래와 같이 `relationMode`를 추가해준다[^1]
+
+```prisma
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider     = "mysql"
+  relationMode = "prisma"
+  url          = env("DATABASE_URL")
+}
+
+model User {
+  id         Int      @id @default(autoincrement())
+  phone      Int?     @unique
+  email      String?  @unique
+  name       String
+  avatar     String?
+  createdAt  DateTime @default(now())
+  updateedAt DateTime @updatedAt
+}
+```
 
 #### References
 - [ ] [Prisma.io](https://www.prisma.io/)
-- [ ] 
+
+#### Footnotes
+
+[^1]: [Prisma Docs: Relation mode](https://www.prisma.io/docs/concepts/components/prisma-schema/relations/relation-mode)에서 볼 수 있듯이 
