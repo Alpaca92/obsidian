@@ -88,6 +88,21 @@ $ pscale region list
 $ pscale database create test ap-northeast
 ```
 
+```ad-danger
+title: Planetscale의 무료플랜은 1개의 브랜치만을 지원하므로, 이미 DB 브랜치를 만들어 놨다면 해당 브랜치를 삭제해야 한다
+```
+
+마지막으로 개발단계의 `DB_URL`을 생성하는데 이는 밀그대로 개발단계에서의 임시 URL이기 때문에 아래와 같이 CLI로 생성해주자
+
+```bash
+# $ pscale connect <dbname>
+$ pscale connect test
+```
+
+여기서 출력되는 URL을 `.env`에 넣어주면 된다
+(현재 예시에서는 `DB_URL`에 해당한다)
+
+기본 값은 `mysql://127.0.0.1:3306`
 
 #### References
 - [ ] [Planetscale Docs](https://planetscale.com/docs/concepts/planetscale-environment-setup#macos-instructions)
