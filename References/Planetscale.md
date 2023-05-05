@@ -89,7 +89,7 @@ $ pscale database create test ap-northeast
 ```
 
 ```ad-danger
-title: Planetscale의 무료플랜은 1개의 브랜치만을 지원하므로, 이미 DB 브랜치를 만들어 놨다면 해당 브랜치를 삭제해야 한다
+title: Planetscale의 무료플랜은 1개의 DB만을 지원하므로, 이미 DB를 만들어 놨다면 해당 DB를 삭제해야 한다
 ```
 
 마지막으로 개발단계의 `DB_URL`을 생성하는데 이는 밀그대로 개발단계에서의 임시 URL이기 때문에 아래와 같이 CLI로 생성해주자

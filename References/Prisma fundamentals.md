@@ -61,6 +61,18 @@ model User {
 }
 ```
 
+그리고 위 model(mySQL에서는 TABLE)을 푸시해주고
+
+```bash
+$ npx prisma db push # db와 연결이 된 상태여야 함
+```
+
+DB를 확인해보면 해당 모델이 정상적으로 푸시된 것을 알 수 있다
+
+```bash
+$ 
+```
+
 #### References
 - [ ] [Prisma.io](https://www.prisma.io/)
 
