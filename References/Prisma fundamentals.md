@@ -67,15 +67,19 @@ model User {
 $ npx prisma db push # db와 연결이 된 상태여야 함
 ```
 
-DB를 확인해보면 해당 모델이 정상적으로 푸시된 것을 알 수 있다
+DB를 확인해보면 해당 모델이 정상적으로 푸시된 것을 알 수 있다[^2]
 
-```bash
-$ 
+```ad-attention
+title: 이 때, Prisma Client가 설치되는데 이에 대해서 좀 더 자세히 살펴보도록 하자
 ```
+
+# Client
+
+
 
 #### References
 - [ ] [Prisma.io](https://www.prisma.io/)
 
 #### Footnotes
-
 [^1]: [Prisma Docs: Relation mode](https://www.prisma.io/docs/concepts/components/prisma-schema/relations/relation-mode)에서 볼 수 있듯이 
+[^2]: [여기](https://app.planetscale.com/)에 접속하여 로그인 > DB > Branches > main > User를 보면 정상적으로 테이블이 작성된 것을 볼 수 있다
