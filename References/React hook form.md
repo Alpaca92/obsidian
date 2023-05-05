@@ -47,8 +47,12 @@ export default function Forms() {
     }
   };
 
+	const onSubmit = (event) => {
+		// something..
+	};
+
   return (
-    <form>
+    <form onSubmit={onSubmit}>
       <input
         onChange={onChange}
         value={username}
@@ -72,6 +76,10 @@ export default function Forms() {
   );
 }
 ```
+
+위 코드만 해도 굉장히 길다는 것을 알 수 있다
+
+하지만 여기에 `validation`, `floating error label` 등 많은 로직들이 더 추가되야 한다
 
 
 
