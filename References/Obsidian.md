@@ -11,23 +11,38 @@ inclusion: true
 
 # Internal link
 내부 파일에 대한 링크를  할 수 있다
-기본적인 문법은 `[[file-name#head]]`이며, `#head`는 옵션이다
 
-````ad-example
+## 문법
+`[[file-name#head | alternate-string]]`
+
+| file-name | \#head  | \#alternate-string |
+|:---------:|:-------:|:------------------:|
+|  String   | String? |      String?       | 
+
+## 사용 예
+```dirtree
+- A
+	- B
+		- C.md
+- D.md
 ```
-A  
-└─ B  
-　　└─ C.md
+
+D파일 내부에서 C의 ## Header 2를 링크하고 싶은 경우 아래와 같이 할 수 있다
+
+```
+[[C##Header%202]]
 ```
 
-위 구조에서 C의 ## Header 2를 링크하고 싶은 경우
+여기서 어느 depth에 위치하든 오직 `file-name`만으로 링크할 수 있다는 점이 특징이다
 
-`[[`
-````
+```ad-quote
+title: `%20`은 띄어쓰기(space)를 의미한다
+```
 
 
 
 
 
 #### References
+- [ ] [Link to file with hyperlink / anchor / different name](https://forum.obsidian.md/t/link-to-file-with-hyperlink-anchor-different-name/4914)
 - [ ] 
