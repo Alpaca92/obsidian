@@ -69,5 +69,25 @@ Use "pscale [command] --help" for more information about a command.
 
 위와 같이 명령어의 옵션들 및 사용법이 출력된다면 정상적으로 설치된 것이다
 
+이제 로그인을 해보자
+
+```bash
+$ pscale auth login
+```
+
+터미널에 출력된 인증코드와 브라우저의 인증코드가 같은 것을 확인하고 `Confirm code`를 클릭
+
+```bash
+$ pscale region list
+```
+
+현재 플랜에서 접속할 수 있는 국가 리스트를 보여주는데, 무료플랜에서 가장 가까운 도쿄 혹은 싱가폴을 사용하면 된다
+
+```bash
+# $ pscale database create <dbname> --region <region?>
+$ pscale database create test ap-northeast
+```
+
+
 #### References
 - [ ] [Planetscale Docs](https://planetscale.com/docs/concepts/planetscale-environment-setup#macos-instructions)
