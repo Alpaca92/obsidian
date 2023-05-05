@@ -99,6 +99,10 @@ title: Planetscale의 무료플랜은 1개의 브랜치만을 지원하므로, �
 $ pscale connect test
 ```
 
+```ad-info
+title: [다른 방법으로 연결](https://planetscale.com/docs/tutorials/connect-any-application#option-2-connect-using-the-planetscale-proxy)할 수도 있지만 이 방법이 제일 간편하다
+```
+
 기본 값은 `127.0.0.1:3306`이므로 이를 자신의 DB에 맞게 설정해서 `.env`에 넣어주도록 하자
 
 ````ad-example
@@ -109,13 +113,6 @@ mysql://127.0.0.1:3306/test
 ```
 ````
 
-
-
-
 #### References
 - [ ] [Planetscale Docs](https://planetscale.com/docs/concepts/planetscale-environment-setup#macos-instructions)
 - [ ] [Connect using the PlanetScale proxy](https://planetscale.com/docs/tutorials/connect-any-application#option-2-connect-using-the-planetscale-proxy)
-
-
-
-#### Footnotes

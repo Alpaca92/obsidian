@@ -47,8 +47,20 @@ title: `%20`은 띄어쓰기(space)를 의미한다
 
 위와 같은 경우 `대체 텍스트`에 링크가 생기는 것을 볼 수 있다
 
+# Footnote
+각주(footnote)를 달 수 있다
 
+## 문법
+각주 대상: `[^name]`
+각주 : `[^name]: description`
+
+## 사용 예
+여기에 각주를 달아보세요[^1]
+[^1]: 여기에는 각주에 대한 내용이 담긴다
+
+```ad-info
+title: 각주는 `cmd + E`를 통해 `reading view`로 봐야 정상적으로 출력된다
+```
 
 #### References
 - [ ] [Link to file with hyperlink / anchor / different name](https://forum.obsidian.md/t/link-to-file-with-hyperlink-anchor-different-name/4914)
-- [ ] 

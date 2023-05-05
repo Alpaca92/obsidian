@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "9442b6be8bb98950",
+        "id": "da4a362dffcc8b5d",
         "type": "tabs",
         "children": [
           {
-            "id": "49aad1b18b71915c",
+            "id": "d002c4a1e59e96b2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "References/Prisma fundamentals.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6a32746ba938f6f9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "References/Planetscale.md",
+                "file": "References/Obsidian.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "7e97b3d5d5061370",
@@ -99,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "References/Planetscale.md",
+                "file": "References/Obsidian.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "References/Planetscale.md",
+                "file": "References/Obsidian.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "References/Planetscale.md"
+                "file": "References/Obsidian.md"
               }
             }
           },
@@ -180,7 +166,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "6a32746ba938f6f9",
+  "active": "d002c4a1e59e96b2",
   "lastOpenFiles": [
     "References/Prisma fundamentals.md",
     "References/Planetscale.md",
