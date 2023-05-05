@@ -14,7 +14,34 @@ state들을 만들어줘야하고 from validation 등 여러 작업들을 하다
 $ npm i react-hook-form
 ```
 
+이제 설치가 끝났으면 일반적인 from을 사용할 때와 뭐가 다른지 살펴보도록 하자
 
+여기 아래의 코드는 일반적으로 회원가입을 할 때 사용되는 form이다
+
+```jsx
+import { useState } from "react";
+
+export default functino Forms() {
+	const [username, setUsername] = useState("");
+	const [email, setEmail] = useState("");
+	const [password, setPassword] = useState("");
+
+	const onChange = (event) => {
+		const {
+			currentTarget: { value },
+		} = event;
+
+	}
+
+	return (
+		<form>
+			<input value={username} type="text" placeholder="username" />
+			<input value={email} type="email" placeholder="email" />
+			<input value={password} type="password" placeholder="password" />
+		</form>
+	);
+}
+```
 
 
 
