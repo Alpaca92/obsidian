@@ -90,6 +90,35 @@ title: Invalid `<Link>` with `<a>` child [_ref_](https://nextjs.org/docs/message
 ```
 ````
 
+# API
+프론트엔드 쪽에서 DB를 접근할 수 있다면 보안상으로 굉장히 큰 문제가 될 것이다
+따라서 기본적으로 DB는 백엔드에서만 접근이 가능한데, 넥스트의 경우 폴더를 하나 만드는 것만으로 이를 간단하게 처리할 수 있다[^1]
+
+```bash
+$ mkdir -p src/pages/api
+$ touch src/pages/api/db-test.tsx
+```
+
+```tsx
+import client from '@/libs/client';
+import { NextApiRequest, NextApiResponse } from 'next';
+
+export default async function handler(
+  req: NextApiRequest,
+  res: NextApiResponse
+) {
+  await client.user.create({
+    data: {
+      name: 'user',
+      email: 'user@example.com',
+    },
+  });
+
+  res.json({ ok: true, data: 'XX' });
+}
+
+```
+
 # Warnings
 다양한 경고들에 대해 해결했던 방법들을 기록해두고자 한다
 
@@ -115,3 +144,6 @@ export default function Seo({ title }) {
 - [ ] [CSR vs SSR 특징 및 차이](https://hahahoho5915.tistory.com/52)
 - [ ] [Next.js의 렌더링 과정(Hydrate) 알아보기](https://www.howdy-mj.me/next/hydrate)
 - [ ] [Warning: \<title> problem: A title element received an array with more than 1 element as children](https://github.com/vercel/next.js/discussions/38256#discussioncomment-3070196)
+
+#### Footnotes
+[^1]: [Next.js Docs: API Routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes)

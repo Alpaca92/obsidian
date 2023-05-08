@@ -87,7 +87,37 @@ $ npm prisma studio
 $ npm install @prisma/client
 ```
 
-위와 같이 프리즈마 클라이언트를 설치하고 이
+위와 같이 프리즈마 클라이언트를 설치하고 인스턴스를 사용하면 된다
+
+```ts
+// src/libs/client.ts
+import { PrismaClient } from '@prisma/client';
+
+const prisma = new PrismaClient();
+
+export default prisma;
+```
+
+```tsx
+// client-test.ts
+
+import client from '@/libs/client';
+import { NextApiRequest, NextApiResponse } from 'next';
+
+export default async function handler(
+  req: NextApiRequest,
+  res: NextApiResponse
+) {
+  await client.user.create({
+    data: {
+      name: 'user',
+      email: 'user@example.com',
+    },
+  });
+
+  res.json({ ok: true, data: 'XX' });
+}
+```
 
 #### References
 - [ ] [Prisma.io](https://www.prisma.io/)

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "d2341d1346f3c182",
+        "id": "edff50e8cf8c4109",
         "type": "tabs",
         "children": [
           {
-            "id": "540237a6edbbc025",
+            "id": "49a72102f33da7c0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "References/Prisma fundamentals.md",
+                "file": "References/Nextjs fundamentals.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "References/Prisma fundamentals.md",
+                "file": "References/Nextjs fundamentals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "References/Prisma fundamentals.md",
+                "file": "References/Nextjs fundamentals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "References/Prisma fundamentals.md"
+                "file": "References/Nextjs fundamentals.md"
               }
             }
           },
@@ -175,12 +175,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "540237a6edbbc025",
+  "active": "49a72102f33da7c0",
   "lastOpenFiles": [
+    "References/Prisma fundamentals.md",
+    "References/Nextjs fundamentals.md",
+    "Untitled.md",
     "References/React hook form.md",
     "Templates/default.md",
     "References/Nomadcoders challenges/melon-clone/INDEX.md",
-    "References/Prisma fundamentals.md",
     "References/Planetscale.md",
     "References/Nomadcoders challenges/Next.js.md",
     "References/Nomadcoders challenges/Typescript.md",
@@ -191,7 +193,6 @@
     "Etc..md",
     "References/Javascript deep dive.md",
     "References/Tailwind fundamentals.md",
-    "References/Nextjs fundamentals.md",
     "References/Typescript fundamentals.md",
     "References/Syntax of Dart.md",
     "References/assets/images/Pasted image 20230422102323.png",
@@ -221,7 +222,6 @@
     "References/fundamentals.md",
     "References/Nextjs",
     "Named constructors.md",
-    "References/Nomadcoders/Untitled.md",
-    "연말정산.md"
+    "References/Nomadcoders/Untitled.md"
   ]
 }
