@@ -13,24 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "References/React hook form.md",
+                "file": "References/Prisma fundamentals.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "77836b4295ac9ba6",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.2.7"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -105,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "References/React hook form.md",
+                "file": "References/Prisma fundamentals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "References/React hook form.md",
+                "file": "References/Prisma fundamentals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "References/React hook form.md"
+                "file": "References/Prisma fundamentals.md"
               }
             }
           },
@@ -186,10 +175,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "77836b4295ac9ba6",
+  "active": "540237a6edbbc025",
   "lastOpenFiles": [
-    "Templates/default.md",
     "References/React hook form.md",
+    "Templates/default.md",
     "References/Nomadcoders challenges/melon-clone/INDEX.md",
     "References/Prisma fundamentals.md",
     "References/Planetscale.md",
