@@ -119,6 +119,14 @@ export default async function handler(
 }
 ```
 
+````ad-info
+```bash
+$ npx prisma generate
+```
+
+프리즈마에서 DB를 푸시하면 위 코드도 같이 실행되면서 스키마의 모델의 타입이 정의되며, `node_modules/.prisma/client/index.d.ts`에서 확인할 수 있다
+````
+
 #### References
 - [ ] [Prisma.io](https://www.prisma.io/)
 
