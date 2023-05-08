@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -107,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "References/Prisma fundamentals.md",
+                "file": "References/Nextjs fundamentals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "References/Prisma fundamentals.md",
+                "file": "References/Nextjs fundamentals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "References/Prisma fundamentals.md"
+                "file": "References/Nextjs fundamentals.md"
               }
             }
           },
@@ -188,10 +187,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "56937a061f29aa97",
+  "active": "49a72102f33da7c0",
   "lastOpenFiles": [
-    "References/Planetscale.md",
     "References/Prisma fundamentals.md",
+    "References/Planetscale.md",
     "References/Nextjs fundamentals.md",
     "Untitled.md",
     "References/React hook form.md",

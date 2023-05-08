@@ -119,6 +119,10 @@ export default async function handler(
 
 ```
 
+이제 위 파일 주소인 `localhost:3000/api/db-test`로 들어가면,
+API가 제공해준 값을 받을 수 있다
+
+
 # Warnings
 다양한 경고들에 대해 해결했던 방법들을 기록해두고자 한다
 
