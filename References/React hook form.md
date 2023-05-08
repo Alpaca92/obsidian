@@ -81,6 +81,7 @@ export default function Forms() {
 
 하지만 여기에 `validation`, `floating error label` 등 많은 로직들이 더 추가되야 한다
 
+[작성중...](https://nomadcoders.co/carrot-market/lectures/3530)
 
 
 

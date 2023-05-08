@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "77836b4295ac9ba6",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.2.7"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -62,6 +73,14 @@
             "type": "leaf",
             "state": {
               "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "ecc876c50906c868",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
               "state": {}
             }
           }
@@ -167,7 +186,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "540237a6edbbc025",
+  "active": "77836b4295ac9ba6",
   "lastOpenFiles": [
     "Templates/default.md",
     "References/React hook form.md",
