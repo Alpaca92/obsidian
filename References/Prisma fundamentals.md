@@ -127,6 +127,13 @@ $ npx prisma generate
 프리즈마에서 DB를 푸시하면 위 코드도 같이 실행되면서 스키마의 모델의 타입이 정의되며, `node_modules/.prisma/client/index.d.ts`에서 확인할 수 있다
 ````
 
+# API
+프리즈마에서 주로 사용되는 API들에 대해서 알아보도록 하자[^5]
+
+## Client
+프리즈마 클라이언트 API는 기본적으로 스키마를 기반으로 한다[^6]
+
+
 #### References
 - [ ] [Prisma.io](https://www.prisma.io/)
 
@@ -135,3 +142,5 @@ $ npx prisma generate
 [^2]: [여기](https://app.planetscale.com/)에 접속하여 로그인 > DB > Branches > main > User
 [^3]: [Prisma Docs: Explore the data in Prisma Studio](https://www.prisma.io/docs/getting-started/quickstart#explore-the-data-in-prisma-studio)
 [^4]: [Prisma Docs: Prisma Client](https://www.prisma.io/docs/concepts/components/prisma-client)
+[^5]: [Prisma Docs: API reference](https://www.prisma.io/docs/reference/api-reference)
+[^6]: [Prisma Docs: Prisma Client API reference](https://www.prisma.io/docs/reference/api-reference/prisma-client-reference)
