@@ -30,9 +30,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ae64d1618d03ab71",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.2.8"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -188,7 +198,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "56937a061f29aa97",
+  "active": "ae64d1618d03ab71",
   "lastOpenFiles": [
     "References/Nextjs fundamentals.md",
     "References/Prisma fundamentals.md",
