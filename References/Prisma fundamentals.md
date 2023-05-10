@@ -65,6 +65,14 @@ model User {
 
 ```bash
 $ npx prisma db push # db와 연결이 된 상태여야 함
+
+Environment variables loaded from .env
+Prisma schema loaded from prisma/schema.prisma
+Datasource "db": MySQL database "test" at "127.0.0.1:3306"
+
+🚀  Your database is now in sync with your Prisma schema. Done in 5.92s
+
+✔ Generated Prisma Client (4.13.0 | library) to ./node_modules/@prisma/client in 460ms
 ```
 
 DB를 확인해보면 해당 모델이 정상적으로 푸시된 것을 알 수 있다[^2]
