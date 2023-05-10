@@ -127,11 +127,17 @@ $ npx prisma generate
 프리즈마에서 DB를 푸시하면 위 코드도 같이 실행되면서 스키마의 모델의 타입이 정의되며, `node_modules/.prisma/client/index.d.ts`에서 확인할 수 있다
 ````
 
+```ad-note
+collapse: true
+
+ddddd
+```
+
 #### References
 - [ ] [Prisma.io](https://www.prisma.io/)
 
 #### Footnotes
 [^1]: [Prisma Docs: Relation mode](https://www.prisma.io/docs/concepts/components/prisma-schema/relations/relation-mode)
-[^2]: [여기](https://app.planetscale.com/)에 접속하여 로그인 > DB > Branches > main > User를 보면 정상적으로 테이블이 작성된 것을 확인할 수 있다
+[^2]: [여기](https://app.planetscale.com/)에 접속하여 로그인 > DB > Branches > main > User
 [^3]: [Prisma Docs: Explore the data in Prisma Studio](https://www.prisma.io/docs/getting-started/quickstart#explore-the-data-in-prisma-studio)
 [^4]: [Prisma Docs: Prisma Client](https://www.prisma.io/docs/concepts/components/prisma-client)
