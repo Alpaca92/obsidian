@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "References/Prisma fundamentals.md",
+                "file": "References/Nomadcoders challenges/carrot-market/questions.md",
                 "mode": "source",
                 "source": false
               }
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "References/Prisma fundamentals.md",
+                "file": "References/Nomadcoders challenges/carrot-market/questions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "References/Prisma fundamentals.md",
+                "file": "References/Nomadcoders challenges/carrot-market/questions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "References/Prisma fundamentals.md"
+                "file": "References/Nomadcoders challenges/carrot-market/questions.md"
               }
             }
           },
@@ -190,14 +190,16 @@
   },
   "active": "56937a061f29aa97",
   "lastOpenFiles": [
-    "References/Nextjs fundamentals.md",
+    "References/Nomadcoders challenges/carrot-market/challenge.md",
+    "References/Nomadcoders challenges/carrot-market/questions.md",
+    "References/Nomadcoders challenges/melon-clone/index.md",
+    "References/Nomadcoders challenges/carrot-market",
     "References/Prisma fundamentals.md",
+    "References/Nextjs fundamentals.md",
     "References/Planetscale.md",
     "Untitled.md",
     "References/React hook form.md",
     "Templates/default.md",
-    "References/Nomadcoders challenges/melon-clone/INDEX.md",
-    "References/Nomadcoders challenges/Next.js.md",
     "References/Nomadcoders challenges/Typescript.md",
     "References/Nomadcoders challenges/melon-clone",
     "README.md",
@@ -233,8 +235,6 @@
     "files/JS.md",
     "References/assets/files",
     "References/fundamentals.md",
-    "References/Nextjs",
-    "Named constructors.md",
-    "References/Nomadcoders/Untitled.md"
+    "Named constructors.md"
   ]
 }
