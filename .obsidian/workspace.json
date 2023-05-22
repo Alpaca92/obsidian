@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "References/Wanted pre-onboarding challenges/스토리북과 함께하는 컴포넌트 주도 개발.md",
+                "file": "References/Nomadcoders challenges/carrot-market/questions.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "References/Wanted pre-onboarding challenges/스토리북과 함께하는 컴포넌트 주도 개발.md",
+                "file": "References/Nomadcoders challenges/carrot-market/questions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "References/Wanted pre-onboarding challenges/스토리북과 함께하는 컴포넌트 주도 개발.md",
+                "file": "References/Nomadcoders challenges/carrot-market/questions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "References/Wanted pre-onboarding challenges/스토리북과 함께하는 컴포넌트 주도 개발.md"
+                "file": "References/Nomadcoders challenges/carrot-market/questions.md"
               }
             }
           },
@@ -177,8 +177,8 @@
   },
   "active": "49a72102f33da7c0",
   "lastOpenFiles": [
-    "README.md",
     "References/Wanted pre-onboarding challenges/스토리북과 함께하는 컴포넌트 주도 개발.md",
+    "README.md",
     "References/Javascript deep dive.md",
     "References/Nextjs fundamentals.md",
     "References/Wanted pre-onboarding challenges",

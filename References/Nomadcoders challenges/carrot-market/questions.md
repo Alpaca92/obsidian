@@ -67,8 +67,7 @@ return 문이 없어 값이 전달되지 않았기 때문에 `fetch`의 결과�
 
 보다시피 token confirmation의 경우 로딩 중에는 `confirmToken` 함수를 호출하지 않도록 하였는데, 이 로직이 왜 필요한지 이해가 되지 않았다
 
-
-
+위 로직은 사용자가 버튼을 연속으로 눌렀을 때, 이때 `loading`의 상태가 true라면 새로운 
 
 #### References
 - [ ] 
