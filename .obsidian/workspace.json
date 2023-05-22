@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "References/Nextjs fundamentals.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "56937a061f29aa97",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "References/Nomadcoders challenges/carrot-market/questions.md",
+                "file": "References/Wanted pre-onboarding challenges/스토리북과 함께하는 컴포넌트 주도 개발.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -90,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "7e97b3d5d5061370",
@@ -107,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "References/Nomadcoders challenges/carrot-market/questions.md",
+                "file": "References/Wanted pre-onboarding challenges/스토리북과 함께하는 컴포넌트 주도 개발.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "References/Nomadcoders challenges/carrot-market/questions.md",
+                "file": "References/Wanted pre-onboarding challenges/스토리북과 함께하는 컴포넌트 주도 개발.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "References/Nomadcoders challenges/carrot-market/questions.md"
+                "file": "References/Wanted pre-onboarding challenges/스토리북과 함께하는 컴포넌트 주도 개발.md"
               }
             }
           },
@@ -188,25 +174,27 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "56937a061f29aa97",
+  "active": "49a72102f33da7c0",
   "lastOpenFiles": [
-    "References/Nomadcoders challenges/carrot-market/challenge.md",
+    "README.md",
+    "References/Wanted pre-onboarding challenges/스토리북과 함께하는 컴포넌트 주도 개발.md",
+    "References/Javascript deep dive.md",
+    "References/Nextjs fundamentals.md",
+    "References/Wanted pre-onboarding challenges",
     "References/Nomadcoders challenges/carrot-market/questions.md",
+    "References/Nomadcoders challenges/carrot-market/challenge.md",
     "References/Nomadcoders challenges/melon-clone/index.md",
     "References/Nomadcoders challenges/carrot-market",
     "References/Prisma fundamentals.md",
-    "References/Nextjs fundamentals.md",
     "References/Planetscale.md",
     "Untitled.md",
     "References/React hook form.md",
     "Templates/default.md",
     "References/Nomadcoders challenges/Typescript.md",
     "References/Nomadcoders challenges/melon-clone",
-    "README.md",
     "References/Difference between children and childNodes.md",
     "References/Obsidian.md",
     "Etc..md",
-    "References/Javascript deep dive.md",
     "References/Tailwind fundamentals.md",
     "References/Typescript fundamentals.md",
     "References/Syntax of Dart.md",
@@ -233,8 +221,6 @@
     "\"./References",
     "\".",
     "files/JS.md",
-    "References/assets/files",
-    "References/fundamentals.md",
-    "Named constructors.md"
+    "References/fundamentals.md"
   ]
 }
