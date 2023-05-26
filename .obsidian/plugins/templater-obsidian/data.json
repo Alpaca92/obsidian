@@ -11,12 +11,16 @@
   "auto_jump_to_cursor": false,
   "enable_system_commands": false,
   "shell_path": "",
-  "user_scripts_folder": "",
+  "user_scripts_folder": "Templates/scripts",
   "enable_folder_templates": true,
   "folder_templates": [
     {
       "folder": "References",
       "template": "Templates/default.md"
+    },
+    {
+      "folder": "memoirs",
+      "template": "Templates/memoirs_template.md"
     }
   ],
   "syntax_highlighting": true,

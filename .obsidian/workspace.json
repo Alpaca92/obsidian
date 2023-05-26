@@ -13,24 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "References/Nomadcoders challenges/carrot-market/questions.md",
+                "file": "memoirs/2023/🔥 23.05.26 🔥 Honesty is the best policy. - Benjamin Franklin.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "77f7a3c13acd0cae",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.3.3"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -105,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "References/Nomadcoders challenges/carrot-market/questions.md",
+                "file": "memoirs/2023/🔥 23.05.26 🔥 Honesty is the best policy. - Benjamin Franklin.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "References/Nomadcoders challenges/carrot-market/questions.md",
+                "file": "memoirs/2023/🔥 23.05.26 🔥 Honesty is the best policy. - Benjamin Franklin.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "References/Nomadcoders challenges/carrot-market/questions.md"
+                "file": "memoirs/2023/🔥 23.05.26 🔥 Honesty is the best policy. - Benjamin Franklin.md"
               }
             }
           },
@@ -186,14 +175,24 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "77f7a3c13acd0cae",
+  "active": "49a72102f33da7c0",
   "lastOpenFiles": [
+    "memoirs/2023/Untitled.md",
+    "memoirs/2023/🔥 23.05.26 🔥 Honesty is the best policy. - Benjamin Franklin.md",
+    "Templates/memoirs_template.md",
+    "Templates/scripts/get_week_number.js",
+    "Templates/scripts/get_korean_quote.js",
+    "memoirs/index.md",
+    "Templates/scripts",
+    "Templates/default.md",
+    "memoirs/2023",
+    "memoirs",
+    "References/Nomadcoders challenges/carrot-market/questions.md",
     "References/Wanted pre-onboarding challenges/스토리북과 함께하는 컴포넌트 주도 개발.md",
     "README.md",
     "References/Javascript deep dive.md",
     "References/Nextjs fundamentals.md",
     "References/Wanted pre-onboarding challenges",
-    "References/Nomadcoders challenges/carrot-market/questions.md",
     "References/Nomadcoders challenges/carrot-market/challenge.md",
     "References/Nomadcoders challenges/melon-clone/index.md",
     "References/Nomadcoders challenges/carrot-market",
@@ -201,7 +200,6 @@
     "References/Planetscale.md",
     "Untitled.md",
     "References/React hook form.md",
-    "Templates/default.md",
     "References/Nomadcoders challenges/Typescript.md",
     "References/Nomadcoders challenges/melon-clone",
     "References/Difference between children and childNodes.md",
@@ -223,16 +221,7 @@
     "References/assets/images",
     "References/assets",
     "Difference.md",
-    "References/assets/files/JS-DOM-Traversal-Cheat Sheet.pdf",
     "References/files/JS-DOM-Traversal-Cheat-Sheet.pdf.md",
-    "References/files/JS-DOM-Traversal-Cheat.md",
-    "files/JS-DOM-Traversal-Cheat.md",
-    "files",
-    "\"./References/files/JS.md",
-    "\"./References/files",
-    "\"./References",
-    "\".",
-    "files/JS.md",
-    "References/fundamentals.md"
+    "References/files/JS-DOM-Traversal-Cheat.md"
   ]
 }
