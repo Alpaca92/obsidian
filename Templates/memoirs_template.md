@@ -28,7 +28,7 @@ RESULT : 순공시간 30시간
 > 🤔 How
 > qwdqwd
 >
-> 
+> **✨ Result**
 > wqdqwdwqd
 
 # 주간 회고
