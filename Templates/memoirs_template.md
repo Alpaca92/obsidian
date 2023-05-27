@@ -24,12 +24,12 @@ RESULT : 순공시간 30시간
 ````
 - [ ] obsidian column 써서 이쁘게 만들기
 
-
-
-
-
-
-
+> [!col]
+> 🤔 How
+> qwdqwd
+>
+> 
+> wqdqwdwqd
 
 # 주간 회고
 ````ad-attention
