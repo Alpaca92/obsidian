@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "memoirs/2023/🔥 23.05.26 🔥 Honesty is the best policy. - Benjamin Franklin.md",
+                "file": "Templates/memoirs_template.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "memoirs/2023/🔥 23.05.26 🔥 Honesty is the best policy. - Benjamin Franklin.md",
+                "file": "Templates/memoirs_template.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "memoirs/2023/🔥 23.05.26 🔥 Honesty is the best policy. - Benjamin Franklin.md",
+                "file": "Templates/memoirs_template.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "memoirs/2023/🔥 23.05.26 🔥 Honesty is the best policy. - Benjamin Franklin.md"
+                "file": "Templates/memoirs_template.md"
               }
             }
           },
@@ -177,8 +177,8 @@
   },
   "active": "49a72102f33da7c0",
   "lastOpenFiles": [
-    "memoirs/2023/Untitled.md",
     "memoirs/2023/🔥 23.05.26 🔥 Honesty is the best policy. - Benjamin Franklin.md",
+    "memoirs/2023/Untitled.md",
     "Templates/memoirs_template.md",
     "Templates/scripts/get_week_number.js",
     "Templates/scripts/get_korean_quote.js",

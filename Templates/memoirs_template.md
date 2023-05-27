@@ -24,6 +24,13 @@ RESULT : 순공시간 30시간
 ````
 - [ ] obsidian column 써서 이쁘게 만들기
 
+
+
+
+
+
+
+
 # 주간 회고
 ````ad-attention
 title: habit tracker 사용방법

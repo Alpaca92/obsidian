@@ -66,3 +66,7 @@ a,
   line-height: 28px;
 }
 
+.markdown-rendered thead tr > th,
+td {
+  text-align: center;
+}

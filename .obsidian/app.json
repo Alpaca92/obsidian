@@ -1,5 +1,6 @@
 {
   "attachmentFolderPath": "Typescript challenge of NomadCoders",
   "promptDelete": false,
-  "tabSize": 2
+  "tabSize": 2,
+  "spellcheck": false
 }
