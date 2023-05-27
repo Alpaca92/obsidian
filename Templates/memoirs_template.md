@@ -22,14 +22,12 @@ HOW : 평일은 일 2시간씩, 주말은 각각 10시간씩 공부하기
 RESULT : 순공시간 30시간
 ```
 ````
-- [ ] obsidian column 써서 이쁘게 만들기
-
 > [!col]
-> 🤔 How
-> qwdqwd
+> **🤔 How**
+> 어떻게 할지
 >
 > **✨ Result**
-> wqdqwdwqd
+> 그래서 어떤 결과를 도출할지
 
 # 주간 회고
 ````ad-attention
