@@ -11,8 +11,12 @@
             "id": "49a72102f33da7c0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "References/Wanted pre-onboarding challenges/스토리북과 함께하는 컴포넌트 주도 개발.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "References/Wanted pre-onboarding challenges/스토리북과 함께하는 컴포넌트 주도 개발.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,6 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "References/Wanted pre-onboarding challenges/스토리북과 함께하는 컴포넌트 주도 개발.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +133,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "References/Wanted pre-onboarding challenges/스토리북과 함께하는 컴포넌트 주도 개발.md"
+              }
             }
           },
           {
@@ -169,6 +177,11 @@
   },
   "active": "49a72102f33da7c0",
   "lastOpenFiles": [
+    "README.md",
+    "References/wanted/frontend challenges/Untitled.md",
+    "memoirs/2023/🔥 23.06.05 🔥 Leave no stone unturned. - Euripides.md",
+    "References/wanted/frontend challenges",
+    "References/wanted",
     "memoirs/2023/🔥 23.05.27 🔥 Fortune favors the brave. - Virgil.md",
     "memoirs/2023/🔥 23.05.27 🔥 Who sows virtue reaps honor. - Leonardo da Vinci.md",
     "Templates/memoirs_template.md",
@@ -182,7 +195,6 @@
     "memoirs",
     "References/Nomadcoders challenges/carrot-market/questions.md",
     "References/Wanted pre-onboarding challenges/스토리북과 함께하는 컴포넌트 주도 개발.md",
-    "README.md",
     "References/Javascript deep dive.md",
     "References/Nextjs fundamentals.md",
     "References/Wanted pre-onboarding challenges",
@@ -210,10 +222,6 @@
     "References/assets/images/Pasted image 20230421045333.png",
     "References/assets/images/Pasted image 20230421044330.png",
     "References/assets/images/Pasted image 20230419214436.png",
-    "References/assets/images/Pasted image 20230421041646.png",
-    "References/assets/images",
-    "References/assets",
-    "Difference.md",
-    "References/files/JS-DOM-Traversal-Cheat-Sheet.pdf.md"
+    "References/assets/images/Pasted image 20230421041646.png"
   ]
 }
