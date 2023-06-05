@@ -16,7 +16,4 @@ inclusion: true
 
 
 
-#### References
-- [ ] 
-
 #### Footnotes
