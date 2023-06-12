@@ -13,24 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "References/Wanted pre-onboarding challenges/스토리북과 함께하는 컴포넌트 주도 개발.md",
+                "file": "etc/insurance.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "05cee7f18e3dba2f",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.3.5"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -105,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "References/Wanted pre-onboarding challenges/스토리북과 함께하는 컴포넌트 주도 개발.md",
+                "file": "etc/insurance.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "References/Wanted pre-onboarding challenges/스토리북과 함께하는 컴포넌트 주도 개발.md",
+                "file": "etc/insurance.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "References/Wanted pre-onboarding challenges/스토리북과 함께하는 컴포넌트 주도 개발.md"
+                "file": "etc/insurance.md"
               }
             }
           },
@@ -186,11 +175,18 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "05cee7f18e3dba2f",
+  "active": "49a72102f33da7c0",
   "lastOpenFiles": [
-    "Templates/default.md",
-    "References/Wanted pre-onboarding challenges/스토리북과 함께하는 컴포넌트 주도 개발.md",
+    "etc/files/우체국보험 약관(2012년 06월 13일 가입).pdf",
+    "etc/insurance.md",
+    "etc/Etc..md",
+    "etc/files",
+    "etc/Card.md",
+    "etc/연말정산.md",
     "README.md",
+    "etc",
+    "References/Wanted pre-onboarding challenges/스토리북과 함께하는 컴포넌트 주도 개발.md",
+    "Templates/default.md",
     "References/wanted/frontend challenges/Untitled.md",
     "memoirs/2023/🔥 23.06.05 🔥 Leave no stone unturned. - Euripides.md",
     "References/wanted/frontend challenges",
@@ -208,22 +204,14 @@
     "References/Nomadcoders challenges/carrot-market/questions.md",
     "References/Javascript deep dive.md",
     "References/Nextjs fundamentals.md",
-    "References/Wanted pre-onboarding challenges",
     "References/Nomadcoders challenges/carrot-market/challenge.md",
     "References/Nomadcoders challenges/melon-clone/index.md",
-    "References/Nomadcoders challenges/carrot-market",
     "References/Prisma fundamentals.md",
     "References/Planetscale.md",
     "Untitled.md",
     "References/React hook form.md",
     "References/Nomadcoders challenges/Typescript.md",
-    "References/Nomadcoders challenges/melon-clone",
     "References/Difference between children and childNodes.md",
-    "References/Obsidian.md",
-    "Etc..md",
-    "References/Tailwind fundamentals.md",
-    "References/Typescript fundamentals.md",
-    "References/Syntax of Dart.md",
     "References/assets/images/Pasted image 20230422102323.png",
     "References/assets/images/Screenshot 2023-04-22 at 10.35.29.jpg",
     "References/assets/images/Pasted image 20230422100657.png",
