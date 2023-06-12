@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "etc/insurance.md",
+                "file": "References/Wanted pre-onboarding challenges/스토리북과 함께하는 컴포넌트 주도 개발.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "etc/insurance.md",
+                "file": "References/Wanted pre-onboarding challenges/스토리북과 함께하는 컴포넌트 주도 개발.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "etc/insurance.md",
+                "file": "References/Wanted pre-onboarding challenges/스토리북과 함께하는 컴포넌트 주도 개발.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "etc/insurance.md"
+                "file": "References/Wanted pre-onboarding challenges/스토리북과 함께하는 컴포넌트 주도 개발.md"
               }
             }
           },
@@ -177,8 +177,8 @@
   },
   "active": "49a72102f33da7c0",
   "lastOpenFiles": [
-    "etc/files/우체국보험 약관(2012년 06월 13일 가입).pdf",
     "etc/insurance.md",
+    "etc/files/우체국보험 약관(2012년 06월 13일 가입).pdf",
     "etc/Etc..md",
     "etc/files",
     "etc/Card.md",
