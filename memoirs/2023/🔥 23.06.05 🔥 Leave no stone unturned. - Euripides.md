@@ -38,7 +38,7 @@ collapse: true
 
 `습관명: number[]`로 작성하면 되며, 배열의 길이는 7이어야 함
 
-습관명은 아래 `Hibit Tracker`에 `goals`안에 반드시 들어가야 함
+습관명은 아래 `Habit Tracker`에 `goals`안에 반드시 들어가야 함
 
 기본 습관은 sleep, language, exercise, developing이 있음
 ````

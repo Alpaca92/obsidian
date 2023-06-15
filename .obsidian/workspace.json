@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "References/Wanted pre-onboarding challenges/스토리북과 함께하는 컴포넌트 주도 개발.md",
+                "file": "memoirs/2023/🔥 23.06.12 🔥 Well begun is half done. - Aristotle.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "References/Wanted pre-onboarding challenges/스토리북과 함께하는 컴포넌트 주도 개발.md",
+                "file": "memoirs/2023/🔥 23.06.12 🔥 Well begun is half done. - Aristotle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "References/Wanted pre-onboarding challenges/스토리북과 함께하는 컴포넌트 주도 개발.md",
+                "file": "memoirs/2023/🔥 23.06.12 🔥 Well begun is half done. - Aristotle.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "References/Wanted pre-onboarding challenges/스토리북과 함께하는 컴포넌트 주도 개발.md"
+                "file": "memoirs/2023/🔥 23.06.12 🔥 Well begun is half done. - Aristotle.md"
               }
             }
           },
@@ -177,8 +177,9 @@
   },
   "active": "49a72102f33da7c0",
   "lastOpenFiles": [
-    "memoirs/2023/🔥 23.06.12 🔥 Well begun is half done. - Aristotle.md",
     "memoirs/2023/🔥 23.06.05 🔥 Leave no stone unturned. - Euripides.md",
+    "Templates/memoirs_template.md",
+    "memoirs/2023/🔥 23.06.12 🔥 Well begun is half done. - Aristotle.md",
     "References/Wanted pre-onboarding challenges/스토리북과 함께하는 컴포넌트 주도 개발.md",
     "etc/insurance.md",
     "etc/files/우체국보험 약관(2012년 06월 13일 가입).pdf",
@@ -194,7 +195,6 @@
     "References/wanted",
     "memoirs/2023/🔥 23.05.27 🔥 Fortune favors the brave. - Virgil.md",
     "memoirs/2023/🔥 23.05.27 🔥 Who sows virtue reaps honor. - Leonardo da Vinci.md",
-    "Templates/memoirs_template.md",
     "memoirs/2023/🔥 23.05.26 🔥 Honesty is the best policy. - Benjamin Franklin.md",
     "Templates/scripts/get_week_number.js",
     "Templates/scripts/get_korean_quote.js",
