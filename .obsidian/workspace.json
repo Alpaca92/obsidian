@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "memoirs/2023/🔥 23.06.12 🔥 Well begun is half done. - Aristotle.md",
+                "file": "References/Wanted pre-onboarding challenges/스토리북과 함께하는 컴포넌트 주도 개발.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "memoirs/2023/🔥 23.06.12 🔥 Well begun is half done. - Aristotle.md",
+                "file": "References/Wanted pre-onboarding challenges/스토리북과 함께하는 컴포넌트 주도 개발.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "memoirs/2023/🔥 23.06.12 🔥 Well begun is half done. - Aristotle.md",
+                "file": "References/Wanted pre-onboarding challenges/스토리북과 함께하는 컴포넌트 주도 개발.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "memoirs/2023/🔥 23.06.12 🔥 Well begun is half done. - Aristotle.md"
+                "file": "References/Wanted pre-onboarding challenges/스토리북과 함께하는 컴포넌트 주도 개발.md"
               }
             }
           },
@@ -177,9 +177,10 @@
   },
   "active": "49a72102f33da7c0",
   "lastOpenFiles": [
+    "README.md",
+    "memoirs/2023/🔥 23.06.12 🔥 Well begun is half done. - Aristotle.md",
     "memoirs/2023/🔥 23.06.05 🔥 Leave no stone unturned. - Euripides.md",
     "Templates/memoirs_template.md",
-    "memoirs/2023/🔥 23.06.12 🔥 Well begun is half done. - Aristotle.md",
     "References/Wanted pre-onboarding challenges/스토리북과 함께하는 컴포넌트 주도 개발.md",
     "etc/insurance.md",
     "etc/files/우체국보험 약관(2012년 06월 13일 가입).pdf",
@@ -187,7 +188,6 @@
     "etc/files",
     "etc/Card.md",
     "etc/연말정산.md",
-    "README.md",
     "etc",
     "Templates/default.md",
     "References/wanted/frontend challenges/Untitled.md",
